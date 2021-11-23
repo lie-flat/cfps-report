@@ -1,7 +1,6 @@
 <template>
-  <div class="container">
-    Container
-    <slot></slot>
+  <div class="is-hidden-touch is-narrow">
+    Table of Contents
   </div>
 </template>
 
@@ -9,7 +8,7 @@
 import {defineComponent} from "vue";
 
 export default defineComponent({
-  name: "Container",
+  name: "TableOfContents"
 });
 </script>
 
