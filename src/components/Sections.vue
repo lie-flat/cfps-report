@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     Container
     <slot></slot>
   </div>
@@ -9,7 +9,7 @@
 import {defineComponent} from "vue";
 
 export default defineComponent({
-  name: "Container",
+  name: "Sections",
 });
 </script>
 

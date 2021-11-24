@@ -1,11 +1,13 @@
 <template>
   <Header/>
-  <div class="columns is-desktop">
-    <Container class="column">
-      <button class="button is-primary">Button</button>
-      <HelloWorld msg="Welcome to Your Vue.js App"/>
-    </Container>
-    <TableOfContents class="column"/>
+  <div class="container is-desktop">
+    <div class="columns">
+      <Sections class="column">
+        <button class="button is-primary">Button</button>
+        <HelloWorld msg="Welcome to Your Vue.js App"/>
+      </Sections>
+      <TableOfContents class="column"/>
+    </div>
   </div>
   <Footer/>
 </template>
@@ -13,7 +15,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header.vue'
 import Footer from "@/components/Footer";
-import Container from './components/Container.vue';
+import Sections from './components/Sections.vue';
 import TableOfContents from "@/components/TableOfContents";
 
 export default {
@@ -22,7 +24,7 @@ export default {
     HelloWorld,
     Header,
     Footer,
-    Container,
+    Sections,
     TableOfContents
   }
 
