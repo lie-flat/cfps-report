@@ -32,5 +32,8 @@ export default defineComponent({
 <style scoped>
 #toc {
   padding-left: 30px;
+  position: sticky;
+  top: 0;
+  height: min-content;
 }
 </style>
