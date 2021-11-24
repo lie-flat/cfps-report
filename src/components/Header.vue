@@ -3,8 +3,8 @@
     <div class="hero-head">
       <nav class="navbar">
         <div class="container">
-          <div class="navbar-end">
-            <a href="https://github.com/lie-flat/cfps-report" class="navbar-item">
+          <div class="navbar-start">
+            <a id="github-link" href="https://github.com/lie-flat/cfps-report" class="navbar-item">
               <font-awesome-icon :icon="['fab', 'github']"/>
               <span style="margin-left: 0.3em;">GitHub</span>
             </a>
@@ -46,8 +46,13 @@ export default defineComponent({
   color: azure !important;
   $header-title-color: azure;
 
-  & a {
+  #github-link {
+    max-width: 6em;
+  }
+
+  a {
     color: white;
+
     &:hover {
       background-color: #ffffff23;
     }
