@@ -31,6 +31,7 @@ $primary-invert: $pink-invert;
 .section {
   background-attachment: fixed;
   margin-bottom: 10px;
+
   & > .title, .subtitle {
     color: white;
   }
@@ -39,4 +40,10 @@ $primary-invert: $pink-invert;
 .chart {
   width: 100%;
   min-height: 300px;
+}
+
+@include touch {
+  .content {
+    padding: 0 20px;
+  }
 }
