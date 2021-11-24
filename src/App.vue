@@ -2,11 +2,11 @@
   <Header/>
   <div class="container is-desktop">
     <div id="columns" class="columns">
-      <Sections class="column">
-        <button class="button is-primary">Button</button>
-        <HelloWorld msg="Welcome to Your Vue.js App"/>
-      </Sections>
-      <TableOfContents class="column"/>
+      <sections class="column">
+        <hello-world msg="Welcome to Your Vue.js App"/>
+        <example-section/>
+      </sections>
+      <table-of-contents class="column"/>
     </div>
   </div>
   <Footer/>
