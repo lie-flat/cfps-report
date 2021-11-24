@@ -1,22 +1,22 @@
 <template>
-  <v-chart class="chart" :option="option"/>
-  <swiper
-      :slides-per-view="1"
-      :space-between="50"
-      :direction="'vertical'"
-      :options="swiperOptions"
-  >
-    <swiper-slide>Slide 1</swiper-slide>
-    <swiper-slide>Slide 2</swiper-slide>
-    <swiper-slide>Slide 3</swiper-slide>
-    ...
-  </swiper>
+  <v-chart class="chart" :autoresize="true" :option="option"/>
+<!--  <swiper-->
+<!--      :slides-per-view="1"-->
+<!--      :space-between="50"-->
+<!--      :direction="'vertical'"-->
+<!--      :options="swiperOptions"-->
+<!--  >-->
+<!--    <swiper-slide>Slide 1</swiper-slide>-->
+<!--    <swiper-slide>Slide 2</swiper-slide>-->
+<!--    <swiper-slide>Slide 3</swiper-slide>-->
+<!--    ...-->
+<!--  </swiper>-->
 
 </template>
 
 <script>
-import {Swiper, SwiperSlide} from 'swiper/vue'
-import 'swiper/swiper.scss';
+// import {Swiper, SwiperSlide} from 'swiper/vue'
+// import 'swiper/swiper.scss';
 import {use} from "echarts/core";
 import {CanvasRenderer} from "echarts/renderers";
 import {PieChart} from "echarts/charts";
@@ -25,7 +25,7 @@ import {
   TooltipComponent,
   LegendComponent
 } from "echarts/components";
-import VChart, {THEME_KEY} from "vue-echarts";
+import VChart from "vue-echarts";
 import {ref, defineComponent} from "vue";
 
 use([
@@ -40,11 +40,8 @@ export default defineComponent({
   name: "HelloWorld",
   components: {
     VChart,
-    Swiper,
-    SwiperSlide,
-  },
-  provide: {
-    [THEME_KEY]: "light"
+    // Swiper,
+    // SwiperSlide,
   },
   setup() {
     const swiperOptions = {
