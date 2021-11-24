@@ -27,3 +27,16 @@ $primary-invert: $pink-invert;
 */
 
 @import "node_modules/bulma/bulma";
+
+.section {
+  background-attachment: fixed;
+  margin-bottom: 10px;
+  & > .title, .subtitle {
+    color: white;
+  }
+}
+
+.chart {
+  width: 100%;
+  min-height: 300px;
+}
