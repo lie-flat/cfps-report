@@ -1,5 +1,5 @@
 <template>
-  <aside class="menu is-hidden-touch is-narrow">
+  <aside id="toc" class="menu is-hidden-touch is-narrow">
     <p class="subtitle">目录</p>
     <p class="menu-label">第一部分</p>
     <ul class="menu-list">
@@ -30,5 +30,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-
+#toc {
+  padding-left: 30px;
+}
 </style>
