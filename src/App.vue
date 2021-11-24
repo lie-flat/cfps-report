@@ -1,7 +1,7 @@
 <template>
   <Header/>
   <div class="container is-desktop">
-    <div class="columns">
+    <div id="columns" class="columns">
       <Sections class="column">
         <button class="button is-primary">Button</button>
         <HelloWorld msg="Welcome to Your Vue.js App"/>
@@ -32,5 +32,7 @@ export default {
 </script>
 
 <style>
-
+#columns {
+  margin-top: 10px;
+}
 </style>
