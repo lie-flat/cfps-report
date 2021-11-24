@@ -1,8 +1,22 @@
 <template>
   <v-chart class="chart" :option="option"/>
+  <swiper
+      :slides-per-view="1"
+      :space-between="50"
+      :direction="'vertical'"
+      :options="swiperOptions"
+  >
+    <swiper-slide>Slide 1</swiper-slide>
+    <swiper-slide>Slide 2</swiper-slide>
+    <swiper-slide>Slide 3</swiper-slide>
+    ...
+  </swiper>
+
 </template>
 
 <script>
+import {Swiper, SwiperSlide} from 'swiper/vue'
+import 'swiper/swiper.scss';
 import {use} from "echarts/core";
 import {CanvasRenderer} from "echarts/renderers";
 import {PieChart} from "echarts/charts";
@@ -25,12 +39,20 @@ use([
 export default defineComponent({
   name: "HelloWorld",
   components: {
-    VChart
+    VChart,
+    Swiper,
+    SwiperSlide,
   },
   provide: {
-    [THEME_KEY]: "dark"
+    [THEME_KEY]: "light"
   },
   setup() {
+    const swiperOptions = {
+      loop: false,
+      direction: "vertical",
+      height: window.innerHeight,
+      width: window.innerWidth
+    }
     const option = ref({
       title: {
         text: "Traffic Sources",
@@ -69,7 +91,7 @@ export default defineComponent({
       ]
     });
 
-    return {option};
+    return {option, swiperOptions};
   }
 });
 </script>
