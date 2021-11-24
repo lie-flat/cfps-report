@@ -17,6 +17,7 @@ import Header from './components/Header.vue'
 import Footer from "@/components/Footer";
 import Sections from './components/Sections.vue';
 import TableOfContents from "@/components/TableOfContents";
+import ExampleSection from "@/components/contents/ExampleSection";
 
 export default {
   name: 'App',
@@ -25,7 +26,8 @@ export default {
     Header,
     Footer,
     Sections,
-    TableOfContents
+    TableOfContents,
+    ExampleSection
   }
 
 }
