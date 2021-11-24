@@ -1,13 +1,14 @@
 <template>
   <div>
-    Container
     <slot></slot>
   </div>
 </template>
 
 <script>
-import {defineComponent} from "vue";
+import {defineComponent, provide} from "vue";
+import {THEME_KEY} from 'vue-echarts';
 
+provide(THEME_KEY, 'light');
 export default defineComponent({
   name: "Sections",
 });
