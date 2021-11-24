@@ -4,7 +4,7 @@
       <nav class="navbar">
         <div class="container">
           <div class="navbar-end">
-            <a class="navbar-item">
+            <a href="https://github.com/lie-flat/cfps-report" class="navbar-item">
               <font-awesome-icon :icon="['fab', 'github']"/>
               <span style="margin-left: 0.3em;">GitHub</span>
             </a>
