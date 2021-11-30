@@ -25,7 +25,7 @@
       semper viverra nam. Nullam non nisi est sit amet. Eget est lorem ipsum dolor. In nulla posuere sollicitudin
       aliquam ultrices sagittis orci. Pellentesque habitant morbi tristique senectus et netus et malesuada.</p>
     <v-chart class="chart" :autoresize="true" :option="anotherChartOption"/>
-    <h2>HAHAHAHAHAHAHAHAHAHAHAHAHA</h2>
+    <h2>HAHAHAHAHAHAHAHAHAHA</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
       magna aliqua. Vitae justo eget magna fermentum iaculis. Convallis a cras semper auctor neque vitae tempus quam.
       Enim neque volutpat ac tincidunt vitae semper. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus

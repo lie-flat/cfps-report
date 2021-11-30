@@ -47,8 +47,8 @@ export default defineComponent({
   },
   legend: {
     data: ['新型农村合作医疗', '城镇居民医疗保险', '城镇职工医疗保险'],
-    orient: "vertical",
-    left: "left"
+    orient: "horizontal",
+    bottom:'0%'
   },
   toolbox: {
     feature: {
@@ -58,7 +58,7 @@ export default defineComponent({
   grid: {
     left: '9%',
     right: '4%',
-    bottom: '3%',
+    bottom: '40',
     containLabel: true
   },
   xAxis: [
@@ -66,6 +66,7 @@ export default defineComponent({
       type: 'category',
       boundaryGap: false,
       data: ['2010', '2012', '2014', '2018']
+
     }
   ],
   

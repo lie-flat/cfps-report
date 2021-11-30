@@ -42,7 +42,7 @@ export default defineComponent({
       grid: {
         left: "7%",
         right: "4%",
-        bottom: "3%",
+        bottom: "40",
         containLabel: true,
       },
       toolbox: {
@@ -51,14 +51,27 @@ export default defineComponent({
         },
       },
       legend: {
-        data: ["大学本科及以上", "高中/中专/职高/技校", "大专","小学","文盲/半文盲"],
-        orient: "vertical",
-        left: "left",
+        data: [
+          "大学本科及以上",
+          "高中/中专/职高/技校",
+          "大专",
+          "小学",
+          "文盲/半文盲",
+        ],
+        orient: "horizontal",
+        // // x: "bottom",
+        // y:"bottom"
+        bottom: "0%",
+        // pageTextStyle: {
+        //   fontSize: 2,
+        // },
       },
       xAxis: {
         type: "category",
         boundaryGap: true,
-        data: ["2010", "2012", "2014", "2018"],
+        data: ["2010", "2012", "2014", "2018"]
+        // bottom:"50px"
+        
       },
       yAxis: {
         type: "value",
