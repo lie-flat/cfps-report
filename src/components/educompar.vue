@@ -12,7 +12,7 @@ import {
   TooltipComponent,
   LegendComponent,
 } from "echarts/components";
-import VChart, { THEME_KEY } from "vue-echarts";
+import VChart from "vue-echarts";
 import { ref, defineComponent } from "vue";
 
 use([
@@ -28,9 +28,6 @@ export default defineComponent({
   name: "Edu_compar",
   components: {
     VChart,
-  },
-  provide: {
-    [THEME_KEY]: "white",
   },
   setup: () => {
     const option = ref({

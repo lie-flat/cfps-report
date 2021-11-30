@@ -4,7 +4,7 @@
       <nav class="navbar">
         <div class="container">
           <div class="navbar-start">
-            <a id="github-link" href="https://github.com/lie-flat/cfps-report" class="navbar-item">
+            <a id="github-link" href="https://github.com/lie-flat/cfps-report" class="animate__animated animate__rollIn navbar-item">
               <font-awesome-icon :icon="['fab', 'github']"/>
               <span style="margin-left: 0.3em;">GitHub</span>
             </a>
@@ -14,13 +14,13 @@
     </div>
     <div class="hero-body">
       <div class="container">
-        <p class="title">
+        <p class="animate__animated animate__fadeInLeft title">
           乡村振兴与城乡差异分析报告
         </p>
-        <p class="subtitle">
+        <p class="animate__animated animate__fadeInRight subtitle">
           基于 CFPS 2010 - 2018 的数据
         </p>
-        <p class="subtitle">山东大学（威海）数据科学与人工智能实验班大作业</p>
+        <p class="animate__animated animate__zoomInUp animate__decelerate subtitle">山东大学（威海）数据科学与人工智能实验班大作业</p>
       </div>
     </div>
     <div class="hero-foot"></div>

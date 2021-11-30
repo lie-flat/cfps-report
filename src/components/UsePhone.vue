@@ -1,19 +1,19 @@
 <template>
-  <v-chart class="chart" :option="option" />
+  <v-chart class="chart" :option="option"/>
 </template>
 
 <script>
-import { use } from "echarts/core";
-import { CanvasRenderer } from "echarts/renderers";
-import { BarChart, LineChart } from "echarts/charts";
+import {use} from "echarts/core";
+import {CanvasRenderer} from "echarts/renderers";
+import {BarChart, LineChart} from "echarts/charts";
 import "echarts/lib/component/grid";
 import {
   TitleComponent,
   TooltipComponent,
   LegendComponent,
 } from "echarts/components";
-import VChart, { THEME_KEY } from "vue-echarts";
-import { ref, defineComponent } from "vue";
+import VChart from "vue-echarts";
+import {ref, defineComponent} from "vue";
 
 use([
   CanvasRenderer,
@@ -29,14 +29,11 @@ export default defineComponent({
   components: {
     VChart,
   },
-  provide: {
-    [THEME_KEY]: "white",
-  },
   setup: () => {
     const option = ref({
-      title:{
-        text:"2010-2018年农村手机使用率",
-        left:"center"
+      title: {
+        text: "2010-2018年农村手机使用率",
+        left: "center"
       },
       tooltip: {
         // trigger: "item",
@@ -54,11 +51,11 @@ export default defineComponent({
         {
           data: [0.68, 0.82, 0.88, 0.90],
           type: "line",
-        }     
+        }
       ],
     });
 
-    return { option };
+    return {option};
   },
 });
 </script>

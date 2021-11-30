@@ -6,6 +6,7 @@ import {faGithub} from "@fortawesome/free-brands-svg-icons/faGithub";
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import {fas} from '@fortawesome/free-solid-svg-icons';
 import './assets/main.scss';
+import 'animate.css';
 
 
 library.add(faGithub, faEnvelope);

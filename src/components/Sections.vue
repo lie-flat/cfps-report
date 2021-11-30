@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="sections">
     <slot></slot>
   </div>
 </template>
@@ -14,6 +14,5 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
 </style>
