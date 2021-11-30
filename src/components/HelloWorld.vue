@@ -1,18 +1,32 @@
 <template>
-  <v-chart class="chart" :option="option" />
+  <v-chart class="chart" :autoresize="true" :option="option"/>
+<!--  <swiper-->
+<!--      :slides-per-view="1"-->
+<!--      :space-between="50"-->
+<!--      :direction="'vertical'"-->
+<!--      :options="swiperOptions"-->
+<!--  >-->
+<!--    <swiper-slide>Slide 1</swiper-slide>-->
+<!--    <swiper-slide>Slide 2</swiper-slide>-->
+<!--    <swiper-slide>Slide 3</swiper-slide>-->
+<!--    ...-->
+<!--  </swiper>-->
+
 </template>
 
 <script>
-import { use } from "echarts/core";
-import { CanvasRenderer } from "echarts/renderers";
-import { PieChart } from "echarts/charts";
+// import {Swiper, SwiperSlide} from 'swiper/vue'
+// import 'swiper/swiper.scss';
+import {use} from "echarts/core";
+import {CanvasRenderer} from "echarts/renderers";
+import {PieChart} from "echarts/charts";
 import {
   TitleComponent,
   TooltipComponent,
   LegendComponent
 } from "echarts/components";
-import VChart, { THEME_KEY } from "vue-echarts";
-import { ref, defineComponent } from "vue";
+import VChart from "vue-echarts";
+import {ref, defineComponent} from "vue";
 
 use([
   CanvasRenderer,
@@ -25,12 +39,17 @@ use([
 export default defineComponent({
   name: "HelloWorld",
   components: {
-    VChart
+    VChart,
+    // Swiper,
+    // SwiperSlide,
   },
-  provide: {
-    [THEME_KEY]: "dark"
-  },
-  setup () {
+  setup() {
+    const swiperOptions = {
+      loop: false,
+      direction: "vertical",
+      height: window.innerHeight,
+      width: window.innerWidth
+    }
     const option = ref({
       title: {
         text: "Traffic Sources",
@@ -52,11 +71,11 @@ export default defineComponent({
           radius: "55%",
           center: ["50%", "60%"],
           data: [
-            { value: 335, name: "Direct" },
-            { value: 310, name: "Email" },
-            { value: 234, name: "Ad Networks" },
-            { value: 135, name: "Video Ads" },
-            { value: 1548, name: "Search Engines" }
+            {value: 335, name: "Direct"},
+            {value: 310, name: "Email"},
+            {value: 234, name: "Ad Networks"},
+            {value: 135, name: "Video Ads"},
+            {value: 1548, name: "Search Engines"}
           ],
           emphasis: {
             itemStyle: {
@@ -69,7 +88,7 @@ export default defineComponent({
       ]
     });
 
-    return { option };
+    return {option, swiperOptions};
   }
 });
 </script>
