@@ -8,6 +8,7 @@
         <section-a/>
         <child-education-yard/>
         <map-example/>
+        <edu-cost-map-chart/>
       </sections>
       <table-of-contents class="column"/>
     </div>
@@ -24,10 +25,12 @@ import ExampleSection from "@/components/contents/ExampleSection";
 import SectionA from "@/components/contents/SectionA";
 import ChildEducationYard from "@/components/contents/ChildEducationYard";
 import MapExample from "@/components/MapExample";
+import EduCostMapChart from "@/components/EduCostMapChart";
 
 export default {
   name: 'App',
   components: {
+    EduCostMapChart,
     ChildEducationYard,
     SectionA,
     // HelloWorld,
