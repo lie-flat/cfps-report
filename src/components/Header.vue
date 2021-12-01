@@ -43,6 +43,7 @@ export default defineComponent({
 #header {
   background-image: url("../assets/header-bg.jpg");
   background-attachment: fixed;
+  background-size: cover;
   color: azure !important;
   $header-title-color: azure;
 
