@@ -9,6 +9,9 @@
         <child-education-yard/>
         <map-example/>
         <edu-cost-map-chart/>
+        <child-happiness-chart/>
+        <child-happiness-rural-urban-plot/>
+        <child-dream-career-word-cloud/>
       </sections>
       <table-of-contents class="column"/>
     </div>
@@ -26,12 +29,17 @@ import SectionA from "@/components/contents/SectionA";
 import ChildEducationYard from "@/components/contents/ChildEducationYard";
 import MapExample from "@/components/MapExample";
 import EduCostMapChart from "@/components/EduCostMapChart";
+import ChildHappinessChart from "@/components/charts/ChildHappinessChart";
+import ChildHappinessRuralUrbanPlot from "@/components/charts/ChildHappinessRuralUrbanPlot";
+import ChildDreamCareerWordCloud from "@/components/charts/ChildDreamCareerWordCloud";
 
 export default {
   name: 'App',
   components: {
+    ChildHappinessRuralUrbanPlot,
     EduCostMapChart,
     ChildEducationYard,
+    ChildHappinessChart,
     SectionA,
     // HelloWorld,
     Header,
@@ -39,7 +47,8 @@ export default {
     Sections,
     TableOfContents,
     ExampleSection,
-    MapExample
+    MapExample,
+    ChildDreamCareerWordCloud
   }
 
 }
