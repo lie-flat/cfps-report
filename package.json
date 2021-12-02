@@ -16,6 +16,7 @@
     "bulma": "^0.9.3",
     "core-js": "^3.6.5",
     "echarts": "^5.2.2",
+    "echarts-wordcloud": "^2.0.0",
     "swiper": "^6",
     "vue": "^3.0.0",
     "vue-echarts": "^6.0.0"
