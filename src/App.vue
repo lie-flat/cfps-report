@@ -4,6 +4,7 @@
     <div id="columns" class="columns">
       <sections class="column">
         <!--        <hello-world msg="Welcome to Your Vue.js App"/>-->
+        <begin/>
         <example-section/>
         <section-a/>
         <child-education-yard/>
@@ -26,6 +27,7 @@ import SectionA from "@/components/contents/SectionA";
 import ChildEducationYard from "@/components/contents/ChildEducationYard";
 import MapExample from "@/components/MapExample";
 import EduCostMapChart from "@/components/EduCostMapChart";
+import Begin from "@/components/contents/begining";
 
 export default {
   name: 'App',
@@ -39,7 +41,8 @@ export default {
     Sections,
     TableOfContents,
     ExampleSection,
-    MapExample 
+    MapExample,
+    Begin
   }
 
 }
