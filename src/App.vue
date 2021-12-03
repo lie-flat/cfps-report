@@ -39,7 +39,7 @@ export default {
     Sections,
     TableOfContents,
     ExampleSection,
-    MapExample
+    MapExample 
   }
 
 }

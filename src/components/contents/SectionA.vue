@@ -4,7 +4,10 @@
     <h2 class="subtitle">示例子标题</h2>
   </section>
   <div class="content">
-    <Edu />
+    <h2>农村受教育情况</h2>
+    <p>以下是2010、2018年的学历占比图，以及2010-2018年各教育阶段人数比例变化图</p>
+    <Edu/>
+    
     <article class="message">
       <div class="message-body">
         <strong>
@@ -30,6 +33,8 @@
         </strong>
       </div>
     </article>
+    <p>农村手机使用率</p>
+    <h2>2010-2018年间农村使用手机情况</h2>
     <use-phone />
     <article class="message is-dark">
       <div class="message-body">
