@@ -42,8 +42,8 @@ export default defineComponent({
 });
 </script>
 
-<style lang="scss" scoped>
-@import "~bulma/bulma";
+<style lang="scss">
+@import "~bulma/sass/utilities/mixins";
 .intro {
   margin: auto;
   width: 80%;

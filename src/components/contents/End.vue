@@ -12,20 +12,20 @@
             2020年是全面打赢脱贫攻坚战的收官之年，乡村振兴战略更是重中之重。年初我们遭遇了新冠肺炎疫情的“加试题”，
             后疫情时代下如何打赢这场攻坚战，真正实现在危机中育新机、于变局中开新局，成为我们思考的议题。
           </span>
-            
-            <br> &nbsp;&nbsp;&nbsp;&nbsp; ”乡村振兴”绝不仅仅只是一句口号，它是个巨大的系统工程，不仅关系到“两个一百年”奋斗目标的实现，
-            更关系到全国人民的眼前利益。我们生活所需的大量物资，都来自农业，产自农村。乡村是否振兴，需要大家共同关注和积极支持。民族欲复兴，乡村必振兴；乡村欲振兴，要先振人心。
-        
+
+          <br> &nbsp;&nbsp;&nbsp;&nbsp; ”乡村振兴”绝不仅仅只是一句口号，它是个巨大的系统工程，不仅关系到“两个一百年”奋斗目标的实现，
+          更关系到全国人民的眼前利益。我们生活所需的大量物资，都来自农业，产自农村。乡村是否振兴，需要大家共同关注和积极支持。民族欲复兴，乡村必振兴；乡村欲振兴，要先振人心。
+
         </div>
       </div>
     </div>
-    
+
   </section>
 </template>
 
 
 <script>
-import { defineComponent } from "vue";
+import {defineComponent} from "vue";
 // import Edu from "@/components/edu";
 
 export default defineComponent({
@@ -33,8 +33,9 @@ export default defineComponent({
 });
 </script>
 
-<style lang="scss" scoped>
-@import "~bulma/bulma";
+<style lang="scss">
+@import "~bulma/sass/utilities/mixins";
+
 .intro {
   margin: auto;
   //   width: 80%;
@@ -42,15 +43,14 @@ export default defineComponent({
   //   padding: 10px;
   font-weight: bold;
   font-size: 20px;
-  font-family:wfont_1cbfba_2ce53f5018214fe19e613842ea09d504,wf_2ce53f5018214fe19e613842e,orig_fzcuheisongsbgb;
-  letter-spacing:0.1em
+  font-family: wfont_1cbfba_2ce53f5018214fe19e613842ea09d504, wf_2ce53f5018214fe19e613842e, orig_fzcuheisongsbgb;
+  letter-spacing: 0.1em
 }
 
 .card {
   width: 70%;
   margin: 0 auto;
   margin-bottom: 80px;
-  
 }
 
 @include touch {
@@ -66,9 +66,10 @@ export default defineComponent({
   margin-bottom: 60px;
   margin-top: 0px;
 }
-.custom{
-    border-top:10px dotted steelblue ;
-    margin-top: 80px;
+
+.custom {
+  border-top: 10px dotted steelblue;
+  margin-top: 80px;
 }
 
 

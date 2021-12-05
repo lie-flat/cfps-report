@@ -12,7 +12,7 @@
         巾帼美丽家园、师生清洁家庭等行动决战决胜乡村振兴第一仗，通过党员干部示范带动全民参与乡村环境整治，激起乡村振兴“一池春水”。</li>
     <li>蒙城县：近年来，蒙城县坚持党建引领，突出产业带动，拓宽收入渠道，优化收入结构，发展壮大社区集体经济，增强了乡村振兴的发展后劲。蒙城县利用自然优势，形成产业+企业+就业的新模式，
         为居民就业、集体增收提供了强大助力。并且引进“和创园”现代农业建设320亩连体温室大棚项目、上海三尚生物科技等企业，大力发展果蔬产业。有了产业，有了企业，自然也就带来了就业，新模式下的发展平台，吸引了返乡人员留在本地创业。</li>
-    
+
   </ol>
   <h1>发展存在的问题</h1>
     <li>乡村振兴的专业人才较为紧缺：城乡发展差距导致乡村人才纷纷投入城市建设中，青壮年劳力、高素质人群流失严重，留守基层的主要有两类人，一类是基层干部，另一类是老人、妇女和儿童。</li>
@@ -34,8 +34,8 @@ export default defineComponent({
 });
 </script>
 
-<style lang="scss" scoped>
-@import "~bulma/bulma";
+<style lang="scss">
+@import "~bulma/sass/utilities/mixins";
 .intro {
   margin: auto;
   //   width: 80%;
@@ -73,7 +73,7 @@ export default defineComponent({
 }
 #ending-section {
   background-image: url("../../assets/develop.jpg");
-  
+
 }
 li{
     letter-spacing:0.1em;
