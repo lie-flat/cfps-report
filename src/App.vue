@@ -7,6 +7,7 @@
         <education-section/>
         <career-section/>
         <life-section/>
+        <economy-section/>
       </sections>
       <table-of-contents class="column"/>
     </div>
@@ -22,10 +23,12 @@ import EducationSection from "@/components/contents/EducationSection";
 import CareerSection from "@/components/contents/CareerSection";
 import Begining from './components/contents/begining.vue';
 import LifeSection from "@/components/contents/LifeSection";
+import EconomySection from "@/components/contents/EconomySection";
 
 export default {
   name: 'App',
   components: {
+    EconomySection,
     LifeSection,
     CareerSection,
     EducationSection,
