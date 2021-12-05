@@ -5,6 +5,7 @@ module.exports = {
   configureWebpack: {
     plugins: [
       new ImageminPlugin({
+        disable: process.env.NODE_ENV !== 'production',
         test: /\.(jpe?g|png|gif|svg)$/i,
         plugins: [
           ImageminMozjpeg({
