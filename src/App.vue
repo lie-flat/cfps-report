@@ -28,11 +28,8 @@ import EducationSection from "@/components/contents/EducationSection";
 import CareerSection from "@/components/contents/CareerSection";
 import Begining from './components/contents/begining.vue';
 import LifeSection from "@/components/contents/LifeSection";
-<<<<<<< HEAD
 import End from './components/contents/End.vue'
-=======
 import EconomySection from "@/components/contents/EconomySection";
->>>>>>> 75dc6aead306b5113447ca5a3e051b4d07f19385
 
 export default {
   name: 'App',
