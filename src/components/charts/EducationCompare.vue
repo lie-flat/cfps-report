@@ -1,5 +1,5 @@
 <template>
-  <v-chart class="chart" :autoresize="true" :option="option" />
+  <v-chart id="chart-education-compare" class="chart" :autoresize="true" :option="option" />
   <article class="message is-warning">
     <div class="message-body">
       我们可以明显看出：2010-2014年间，文盲/半文盲在农村调查人口中占将近一半，受到‘高中及以上’的教育水平人数上升不明显。2014-2018年间，随着城乡义务教育一体化改革的

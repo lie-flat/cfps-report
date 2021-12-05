@@ -1,5 +1,5 @@
 <template>
-  <div class="columns">
+  <div id="chart-education" class="columns">
     <v-chart class="chart column" :autoresize="true" :option="option2010"/>
     <v-chart class="chart column" :autoresize="true" :option="option2018"/>
   </div>
@@ -42,7 +42,7 @@ export default defineComponent({
     const option2010 = ref({
       title: [
         {
-          text: "2010 Education",
+          text: "2010年受教育水平",
           left: "center",
         },
       ],
@@ -89,7 +89,7 @@ export default defineComponent({
     const option2018 = ref({
       title: [
         {
-          text: "2018 Education",
+          text: "2018年受教育水平",
           left: 'center'
         },
       ],
