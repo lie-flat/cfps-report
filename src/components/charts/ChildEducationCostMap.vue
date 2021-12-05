@@ -1,5 +1,5 @@
 <template>
-  <v-chart class="chart" :autoresize="true" :option="mapOption"></v-chart>
+  <v-chart id="chart-education-cost" class="chart" :autoresize="true" :option="mapOption"></v-chart>
   <article class="message is-warning">
     <div class="message-body">
       各个省份的家庭教育总支出的平均值差异较大，这可能与各个省份的受访者样本的差异性有很大关系。<br>

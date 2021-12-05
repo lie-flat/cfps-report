@@ -1,5 +1,5 @@
 <template>
-  <v-chart class="chart" :autoresize="true" :option="mapOption"></v-chart>
+  <v-chart id="chart-expected-score" class="chart" :autoresize="true" :option="mapOption"></v-chart>
   <article class="message is-primary">
     <div class="message-body">
       各省份家长对孩子的期望成绩都很高，几乎都在 85 分以上。

@@ -14,5 +14,5 @@ library.add(faGithub, faEnvelope);
 library.add(fas);
 
 createApp(App)
-    .component('font-awesome-icon', FontAwesomeIcon)
-    .mount('#app')
+.component('font-awesome-icon', FontAwesomeIcon)
+.mount('#app')

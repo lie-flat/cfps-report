@@ -1,7 +1,7 @@
 <template>
   <p>农村手机使用率</p>
   <h2>2010-2018年间农村使用手机情况</h2>
-  <v-chart class="chart" :autoresize="true" :option="option" />
+  <v-chart id="chart-use-phone" class="chart" :autoresize="true" :option="option" />
   <article class="message is-link">
     <div class="message-body">
       随着互联网的普及，2010-2018年间农村手机使用率逐年上涨
