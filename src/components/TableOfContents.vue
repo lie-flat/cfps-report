@@ -1,7 +1,7 @@
 <template>
   <aside ref="toc" id="toc" class="menu is-hidden-touch is-narrow">
     <p class="subtitle">目录</p>
-    <p class="menu-label"><a href="#intro">引入</a></p>
+    <p class="menu-label"><a href="#intro">引言</a></p>
     <p class="menu-label"><a href="#education-section">教育</a></p>
     <ul class="menu-list">
       <li><a href="#chart-education">2010/2018 受教育水平对比</a></li>
