@@ -11,18 +11,17 @@
       <li><a href="#chart-expected-education">家长所希望的孩子的教育水平</a></li>
       <li><a href="#chart-expected-score">各省份家长对孩子的平均期望成绩</a></li>
       <li><a href="#chart-education-cost">过去12个月家庭教育总支出</a></li>
-
     </ul>
     <p class="menu-label"><a href="#career-section">工作</a></p>
     <ul class="menu-list">
       <li><a href="#chart-child-dream-career">青少年的理想职业</a></li>
       <li><a href="#chart-expected-child-career">家长对青少年的期望职业</a></li>
     </ul>
-    <p class="menu-label">生活</p>
+    <p class="menu-label"><a href="#life-section">生活</a></p>
     <ul class="menu-list">
-      <li><a>Hello</a></li>
-      <li><a>World</a></li>
-      <li><a>AAAAA</a></li>
+      <li><a href="#chart-insurance">医疗保险</a></li>
+      <li><a href="#chart-child-happiness">少年儿童幸福程度地图</a></li>
+      <li><a href="#chart-child-happiness-plot">少年儿童幸福程度城乡对比</a></li>
     </ul>
     <p class="menu-label">经济</p>
     <ul class="menu-list">

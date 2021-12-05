@@ -17,7 +17,7 @@
 <script>
 import {defineComponent} from "vue";
 import EducationCompare from "@/components/charts/EducationCompare";
-import UsePhone from "@/components/UsePhone";
+import UsePhone from "@/components/charts/UsePhone";
 import ChildEducationYard from "@/components/charts/ChildEducationYard";
 import ChildExpectedEducationStackChart from "@/components/charts/ChildExpectedEducationStackChart";
 import ChildExpectedScoreMap from "@/components/charts/ChildExpectedScoreMap";

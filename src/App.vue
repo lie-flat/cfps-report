@@ -6,8 +6,7 @@
         <begining/>
         <education-section/>
         <career-section/>
-        <child-happiness-chart/>
-        <child-happiness-rural-urban-plot/>
+        <life-section/>
       </sections>
       <table-of-contents class="column"/>
     </div>
@@ -15,23 +14,20 @@
   <Footer/>
 </template>
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header.vue'
 import Footer from "@/components/Footer";
 import Sections from './components/Sections.vue';
 import TableOfContents from "@/components/TableOfContents";
 import EducationSection from "@/components/contents/EducationSection";
-import ChildHappinessChart from "@/components/charts/ChildHappinessChart";
-import ChildHappinessRuralUrbanPlot from "@/components/charts/ChildHappinessRuralUrbanPlot";
 import CareerSection from "@/components/contents/CareerSection";
 import Begining from './components/contents/begining.vue';
+import LifeSection from "@/components/contents/LifeSection";
 
 export default {
   name: 'App',
   components: {
+    LifeSection,
     CareerSection,
-    ChildHappinessRuralUrbanPlot,
-    ChildHappinessChart,
     EducationSection,
     Header,
     Footer,

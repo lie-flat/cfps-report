@@ -1,9 +1,10 @@
 <template>
-  <div class="content">
-    <!--    <p>{{ value }}</p>-->
-    <!--    <input class="slider is-fullwidth" type="range" min="2010" max="2018" step="2" v-model="value">-->
-    <v-chart class="chart" :autoresize="true" :option="mapOption"></v-chart>
-  </div>
+  <v-chart id="chart-child-happiness" class="chart" :autoresize="true" :option="mapOption"></v-chart>
+  <article class="message is-info">
+    <div class="message-body">
+      各省份少年儿童的幸福程度都很高，而且幸福程度总体上有逐年升高的趋势。
+    </div>
+  </article>
 </template>
 
 <script>
@@ -70,11 +71,11 @@ export default defineComponent({
       options: [
         {
           title: {
-            text: "儿童幸福程度(2010)",
+            text: "少年儿童幸福程度(2010)",
           },
           series: [
             {
-              name: '儿童幸福程度',
+              name: '少年儿童幸福程度',
               type: 'map',
               map: 'china',
               data: [{'name': '上海市', 'value': 8.62962962962963}, {
@@ -118,11 +119,11 @@ export default defineComponent({
           ]
         }, {
           title: {
-            text: "儿童幸福程度(2012)",
+            text: "少年儿童幸福程度(2012)",
           },
           series: [
             {
-              name: '儿童幸福程度',
+              name: '少年儿童幸福程度',
               type: 'map',
               map: 'china',
               data: [{'name': '上海市', 'value': 8.294871794871796}, {
@@ -160,11 +161,11 @@ export default defineComponent({
           ]
         }, {
           title: {
-            text: "儿童幸福程度(2014)",
+            text: "少年儿童幸福程度(2014)",
           },
           series: [
             {
-              name: '儿童幸福程度',
+              name: '少年儿童幸福程度',
               type: 'map',
               map: 'china',
               data: [{'name': '上海市', 'value': 8.741935483870968}, {
@@ -205,11 +206,11 @@ export default defineComponent({
           ]
         }, {
           title: {
-            text: "儿童幸福程度(2016)",
+            text: "少年儿童幸福程度(2016)",
           },
           series: [
             {
-              name: '儿童幸福程度',
+              name: '少年儿童幸福程度',
               type: 'map',
               map: 'china',
               data: [{'name': '上海市', 'value': 8.702127659574469}, {'name': '云南省', 'value': 7.76}, {
@@ -247,11 +248,11 @@ export default defineComponent({
           ]
         }, {
           title: {
-            text: "儿童幸福程度(2018)",
+            text: "少年儿童幸福程度(2018)",
           },
           series: [
             {
-              name: '儿童幸福程度',
+              name: '少年儿童幸福程度',
               type: 'map',
               map: 'china',
               data: [{'name': '上海市', 'value': 8.402777777777779}, {

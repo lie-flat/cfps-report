@@ -1,11 +1,10 @@
 <template>
-  <!--  <section id="example-section" class="section is-medium">-->
-  <!--    <h1 class="title">示例标题</h1>-->
-  <!--    <h2 class="subtitle">示例子标题</h2>-->
-  <!--  </section>-->
-  <div class="content">
-    <v-chart class="chart" :autoresize="true" :option="yardOption"/>
-  </div>
+  <v-chart id="chart-child-happiness-plot" class="chart" :autoresize="true" :option="yardOption"/>
+  <article class="message is-warning">
+    <div class="message-body">
+      整体上来看，城乡少年儿童幸福指数都很高，不过城镇的幸福指数往往比乡村高零点几个百分点。
+    </div>
+  </article>
 </template>
 
 <script>
@@ -21,7 +20,6 @@ import {
   GridComponent
 } from "echarts/components";
 import VChart from "vue-echarts";
-// import * as echarts from "echarts";
 
 use([
   CanvasRenderer,
@@ -52,7 +50,7 @@ export default defineComponent({
         }
       ],
       title: {
-        text: '少儿幸福程度',
+        text: '少年儿童幸福程度',
         left: "center"
       },
       legend: {
@@ -68,7 +66,7 @@ export default defineComponent({
         // nameLocation: 'middle'
       },
       yAxis: {
-        name: '少儿幸福程度',
+        name: '少年儿童幸福程度',
         type: "value",
       },
       series: [

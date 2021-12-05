@@ -1,5 +1,5 @@
 <template>
-  <v-chart class="chart" :autoresize="true" :option="option" />
+  <v-chart id="chart-insurance" class="chart" :autoresize="true" :option="option" />
   <article class="message is-primary">
     <div class="message-body">
       <strong>
