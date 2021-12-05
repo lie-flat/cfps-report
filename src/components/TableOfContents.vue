@@ -30,6 +30,7 @@
       <li><a>World</a></li>
       <li><a>AAAAA</a></li>
     </ul>
+    <p class="menu-label"><a href="#ending">结语</a></p>
   </aside>
 </template>
 

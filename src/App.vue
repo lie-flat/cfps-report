@@ -8,8 +8,10 @@
         <career-section/>
         <child-happiness-chart/>
         <child-happiness-rural-urban-plot/>
+        <end/>
       </sections>
       <table-of-contents class="column"/>
+      
     </div>
   </div>
   <Footer/>
@@ -25,6 +27,7 @@ import ChildHappinessChart from "@/components/charts/ChildHappinessChart";
 import ChildHappinessRuralUrbanPlot from "@/components/charts/ChildHappinessRuralUrbanPlot";
 import CareerSection from "@/components/contents/CareerSection";
 import Begining from './components/contents/begining.vue';
+import End from './components/contents/End.vue';
 
 export default {
   name: 'App',
@@ -38,6 +41,7 @@ export default {
     Sections,
     TableOfContents,
     Begining,
+    End
   },
 }
 </script>
