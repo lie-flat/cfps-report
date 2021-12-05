@@ -4,7 +4,7 @@
     <h2 class="subtitle">示例子标题</h2>
   </section> -->
 
-  <div class="content">
+  <div id='intro' class="content">
     <h1>引言</h1>
     <div class='pic'>
       <a href=""><img src='../../assets/xi3.png'></a>
