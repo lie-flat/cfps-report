@@ -1,5 +1,5 @@
 <template>
-  <section id="section-education" class="section is-medium">
+  <section id="education-section" class="section is-medium">
     <h1 class="title">教育</h1>
     <h2 class="subtitle">教育小节子标题</h2>
   </section>
@@ -25,7 +25,7 @@ import ChildExpectedScoreMap from "@/components/charts/ChildExpectedScoreMap";
 import Education from "@/components/charts/Education";
 
 export default defineComponent({
-  name: "SectionEducation",
+  name: "EducationSection",
   components: {
     Education,
     ChildEducationYard, UsePhone, Insurance, EducationCompare, ChildExpectedEducationStackChart,
@@ -35,7 +35,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-#section-education {
+#education-section {
   background-image: url("../../assets/edu-bg.jpg");
 }
 </style>

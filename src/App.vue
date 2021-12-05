@@ -3,9 +3,7 @@
   <div class="container is-desktop">
     <div id="columns" class="columns">
       <sections class="column">
-        <!--        <hello-world msg="Welcome to Your Vue.js App"/>-->
-        <example-section/>
-        <section-education/>
+        <education-section/>
         <edu-cost-map-chart/>
         <child-happiness-chart/>
         <child-happiness-rural-urban-plot/>
@@ -22,8 +20,7 @@ import Header from './components/Header.vue'
 import Footer from "@/components/Footer";
 import Sections from './components/Sections.vue';
 import TableOfContents from "@/components/TableOfContents";
-import ExampleSection from "@/components/contents/ExampleSection";
-import SectionEducation from "@/components/contents/SectionEducation";
+import EducationSection from "@/components/contents/EducationSection";
 import EduCostMapChart from "@/components/EduCostMapChart";
 import ChildHappinessChart from "@/components/charts/ChildHappinessChart";
 import ChildHappinessRuralUrbanPlot from "@/components/charts/ChildHappinessRuralUrbanPlot";
@@ -35,13 +32,11 @@ export default {
     ChildHappinessRuralUrbanPlot,
     EduCostMapChart,
     ChildHappinessChart,
-    SectionEducation,
-    // HelloWorld,
+    EducationSection,
     Header,
     Footer,
     Sections,
     TableOfContents,
-    ExampleSection,
     ChildDreamCareerWordCloud
   }
 
