@@ -55,7 +55,7 @@ export default defineComponent({
   color: azure !important;
   $header-title-color: azure;
 
-  #github-link {
+  .navbar-item {
     max-width: 6em;
   }
 
