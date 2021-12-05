@@ -1,5 +1,13 @@
 <template>
   <v-chart class="chart" :autoresize="true" :option="option" />
+  <article class="message is-primary">
+    <div class="message-body">
+      <strong>
+        2010-2018年间三个医疗保险————新型农村合作医疗保险、城镇居民医疗保险、城镇职工医疗保险在农村占有95%以上的比重。2002年，党中央明确提出各级政府要积极引导农民建立
+        以大病统筹为主的新型农村合作医疗制度，积极引导和支持农民自愿参加农村合作医疗保险。十年来，‘城镇职工医疗’占比有小幅度的上升；‘保险合作医疗保险’保持70%以上的占比。
+      </strong>
+    </div>
+  </article>
 </template>
 
 <script>

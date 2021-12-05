@@ -1,10 +1,17 @@
 <template>
-  <div class="content">
-    <!--    <p>{{ value }}</p>-->
-    <!--    <input class="slider is-fullwidth" type="range" min="2010" max="2018" step="2" v-model="value">-->
-    <v-chart class="chart" :autoresize="true" :option="wcOption"></v-chart>
-    <v-chart class="chart" :autoresize="true" :option="wcpOption"></v-chart>
-  </div>
+  <v-chart id="chart-child-dream-career" class="chart" :autoresize="true" :option="wcOption"></v-chart>
+  <article class="message is-success">
+    <div class="message-body">
+      教学人员、企业负责人和卫生专业技术人员是很多青少年梦寐以求的职业。
+    </div>
+  </article>
+  <v-chart id="chart-expected-child-career" class="chart" :autoresize="true" :option="wcpOption"></v-chart>
+  <article class="message is-danger">
+    <div class="message-body">
+      相比与青少年自己对职业的计划，家长们还期望将孩子培养成行政办公和其他办事人员以及国家机关、党群组织、事业单位的负责人。<br>
+      同时,也有很多家长尊重孩子的职业规划，在这个问题上回答了“看他/她自己”。
+    </div>
+  </article>
 </template>
 
 <script>
@@ -62,12 +69,12 @@ export default defineComponent({
       options: [
         {
           title: {
-            text: "青少年的职业期望(2010)",
+            text: "青少年的理想职业(2010)",
             left: 'center',
           },
           series: [
             {
-              name: '青少年的职业期望',
+              name: '青少年的理想职业',
               type: 'wordCloud',
               shape: 'pentagon',
               layoutAnimation: true,
@@ -105,12 +112,12 @@ export default defineComponent({
           ]
         }, {
           title: {
-            text: "青少年的职业期望(2016)",
+            text: "青少年的理想职业(2016)",
             left: 'center',
           },
           series: [
             {
-              name: '青少年的职业期望',
+              name: '青少年的理想职业',
               type: 'wordCloud',
               shape: 'pentagon',
               layoutAnimation: true,
@@ -156,12 +163,12 @@ export default defineComponent({
       options: [
         {
           title: {
-            text: "家长对儿童的职业期望(2010)",
+            text: "家长对青少年的期望职业(2010)",
             left: "center"
           },
           series: [
             {
-              name: '家长对儿童的职业期望',
+              name: '家长对青少年的期望职业',
               type: 'wordCloud',
               shape: 'pentagon',
               layoutAnimation: true,
@@ -200,12 +207,12 @@ export default defineComponent({
         },
         {
           title: {
-            text: "家长对儿童的职业期望(2014)",
+            text: "家长对青少年的期望职业(2014)",
             left: "center"
           },
           series: [
             {
-              name: '家长对儿童的职业期望',
+              name: '家长对青少年的期望职业',
               type: 'wordCloud',
               shape: 'pentagon',
               layoutAnimation: true,
@@ -244,12 +251,12 @@ export default defineComponent({
         },
         {
           title: {
-            text: "家长对儿童的职业期望(2018)",
+            text: "家长对青少年的期望职业(2018)",
             left: "center"
           },
           series: [
             {
-              name: '家长对儿童的职业期望',
+              name: '家长对青少年的期望职业',
               type: 'wordCloud',
               shape: 'pentagon',
               layoutAnimation: true,

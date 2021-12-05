@@ -1,9 +1,11 @@
 <template>
-  <div class="content">
-    <!--    <p>{{ value }}</p>-->
-    <!--    <input class="slider is-fullwidth" type="range" min="2010" max="2018" step="2" v-model="value">-->
-    <v-chart class="chart" :autoresize="true" :option="mapOption"></v-chart>
-  </div>
+  <v-chart class="chart" :autoresize="true" :option="mapOption"></v-chart>
+  <article class="message is-warning">
+    <div class="message-body">
+      各个省份的家庭教育总支出的平均值差异较大，这可能与各个省份的受访者样本的差异性有很大关系。<br>
+      但总的来看，东部沿海地区支出较高，而西部地区和西南地区的支出比较低。
+    </div>
+  </article>
 </template>
 
 <script>
@@ -19,7 +21,7 @@ import {
 import VChart from "vue-echarts";
 import {ref, defineComponent} from "vue";
 import * as echarts from "echarts";
-import china from "../assets/geo-china.json";
+import china from "../../assets/geo-china.json";
 
 use([
   CanvasRenderer,
@@ -31,7 +33,7 @@ use([
 ]);
 
 export default defineComponent({
-  name: "EduCostMapChart",
+  name: "ChildEducationCostMap",
   components: {VChart},
   setup() {
     echarts.registerMap("china", china);

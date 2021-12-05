@@ -31,6 +31,7 @@ $primary-invert: $pink-invert;
 .section {
   background-attachment: fixed;
   margin-bottom: 10px;
+  background-size: cover;
 
   & > .title, .subtitle {
     color: white;
@@ -46,4 +47,8 @@ $primary-invert: $pink-invert;
   .content {
     padding: 0 20px;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

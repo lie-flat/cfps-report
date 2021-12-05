@@ -1,9 +1,10 @@
 <template>
-  <div class="content">
-    <!--    <p>{{ value }}</p>-->
-    <!--    <input class="slider is-fullwidth" type="range" min="2010" max="2018" step="2" v-model="value">-->
-    <v-chart class="chart" :autoresize="true" :option="mapOption"></v-chart>
-  </div>
+  <v-chart class="chart" :autoresize="true" :option="mapOption"></v-chart>
+  <article class="message is-primary">
+    <div class="message-body">
+      各省份家长对孩子的期望成绩都很高，几乎都在 85 分以上。
+    </div>
+  </article>
 </template>
 
 <script>
@@ -19,7 +20,7 @@ import {
 import VChart from "vue-echarts";
 import {ref, defineComponent} from "vue";
 import * as echarts from "echarts";
-import china from "../assets/geo-china.json";
+import china from "../../assets/geo-china.json";
 
 use([
   CanvasRenderer,
@@ -31,7 +32,7 @@ use([
 ]);
 
 export default defineComponent({
-  name: "MapExample",
+  name: "ChildExpectedScoreMap",
   components: {VChart},
   setup() {
     echarts.registerMap("china", china);

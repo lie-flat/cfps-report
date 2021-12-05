@@ -1,5 +1,10 @@
 <template>
   <v-chart class="chart" :autoresize="true" :option="option"/>
+  <article class="message is-link">
+    <div class="message-body">
+      随着互联网的普及，2010-2018年间农村手机使用率逐年上涨
+    </div>
+  </article>
 </template>
 
 <script>

@@ -3,16 +3,10 @@
   <div class="container is-desktop">
     <div id="columns" class="columns">
       <sections class="column">
-        <!--        <hello-world msg="Welcome to Your Vue.js App"/>-->
-        <begin/>
-        <example-section/>
-        <section-a/>
-        <child-education-yard/>
-        <map-example/>
-        <edu-cost-map-chart/>
+        <education-section/>
+        <career-section/>
         <child-happiness-chart/>
         <child-happiness-rural-urban-plot/>
-        <child-dream-career-word-cloud/>
       </sections>
       <table-of-contents class="column"/>
     </div>
@@ -25,30 +19,22 @@ import Header from './components/Header.vue'
 import Footer from "@/components/Footer";
 import Sections from './components/Sections.vue';
 import TableOfContents from "@/components/TableOfContents";
-import ExampleSection from "@/components/contents/ExampleSection";
-import SectionA from "@/components/contents/SectionA";
-import ChildEducationYard from "@/components/contents/ChildEducationYard";
-import MapExample from "@/components/MapExample";
-import EduCostMapChart from "@/components/EduCostMapChart";
-import Begin from "@/components/contents/begining";
+import EducationSection from "@/components/contents/EducationSection";
+import ChildHappinessChart from "@/components/charts/ChildHappinessChart";
+import ChildHappinessRuralUrbanPlot from "@/components/charts/ChildHappinessRuralUrbanPlot";
+import CareerSection from "@/components/contents/CareerSection";
 
 export default {
   name: 'App',
   components: {
-    // ChildHappinessRuralUrbanPlot,
-    EduCostMapChart,
-    ChildEducationYard,
-    // ChildHappinessChart,
-    SectionA,
-    // HelloWorld,
+    CareerSection,
+    ChildHappinessRuralUrbanPlot,
+    ChildHappinessChart,
+    EducationSection,
     Header,
     Footer,
     Sections,
     TableOfContents,
-    ExampleSection,
-    MapExample,
-    // ChildDreamCareerWordCloud,
-    Begin
   }
 
 }

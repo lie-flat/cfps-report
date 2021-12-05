@@ -1,5 +1,12 @@
 <template>
-  <v-chart class="chart" :autoresize="true" :option="option" />
+  <v-chart id="chart-education-compare" class="chart" :autoresize="true" :option="option" />
+  <article class="message is-warning">
+    <div class="message-body">
+      我们可以明显看出：2010-2014年间，文盲/半文盲在农村调查人口中占将近一半，受到‘高中及以上’的教育水平人数上升不明显。2014-2018年间，随着城乡义务教育一体化改革的
+      推进，‘文盲/半文盲’在农村的占比人数下降明显，‘小学’学历在农村占比最多，‘高中/中专/职高/技校’、‘大专’以及‘大学本科以上’的学历占比也有较明显的上涨，义务教育一体化
+      改革的推进成效显著。
+    </div>
+  </article>
 </template>
 
 <script>
@@ -25,7 +32,7 @@ use([
 ]);
 
 export default defineComponent({
-  name: "Edu_compar",
+  name: "EducationCompare",
   components: {
     VChart,
   },
