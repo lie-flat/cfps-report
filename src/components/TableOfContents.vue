@@ -23,7 +23,7 @@
       <li><a href="#chart-child-happiness">少年儿童幸福程度地图</a></li>
       <li><a href="#chart-child-happiness-plot">少年儿童幸福程度城乡对比</a></li>
     </ul>
-    <p class="menu-label">经济</p>
+    <p class="menu-label"><a href="#economy-section">经济</a></p>
     <ul class="menu-list">
       <li><a>Hello</a></li>
       <li><a>World</a></li>
