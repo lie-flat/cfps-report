@@ -48,3 +48,7 @@ $primary-invert: $pink-invert;
     padding: 0 20px;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
