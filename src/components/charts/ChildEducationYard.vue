@@ -3,7 +3,7 @@
   <!--    <h1 class="title">示例标题</h1>-->
   <!--    <h2 class="subtitle">示例子标题</h2>-->
   <!--  </section>-->
-  <v-chart class="chart" :autoresize="true" :option="yardOption"/>
+  <v-chart id="chart-child-yard" class="chart" :autoresize="true" :option="yardOption"/>
   <article class="message is-success">
     <div class="message-body">
       幼儿园/学前班的入学率逐年上升，在 2010 年时，城镇的入学率几乎是乡村的两倍，随后，城乡差异逐渐缩小，凸显出我国在推进教育公平方面的努力

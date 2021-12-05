@@ -1,5 +1,5 @@
 <template>
-  <v-chart class="chart" :autoresize="true" :option="yardOption"/>
+  <v-chart id="chart-expected-education" class="chart" :autoresize="true" :option="yardOption"/>
   <article class="message is-danger">
     <div class="message-body">
       无论城乡，大部分家长都期望自己的孩子达到大学本科及以上的学历，但是，也有一部分家长认为大专、高中、甚至初中的学历足矣。

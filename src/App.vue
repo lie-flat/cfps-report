@@ -38,8 +38,7 @@ export default {
     Sections,
     TableOfContents,
     Begining,
-  }
-
+  },
 }
 </script>
 
