@@ -10,6 +10,9 @@
         <child-education-yard/>
         <map-example/>
         <edu-cost-map-chart/>
+        <child-happiness-chart/>
+        <child-happiness-rural-urban-plot/>
+        <child-dream-career-word-cloud/>
       </sections>
       <table-of-contents class="column"/>
     </div>
@@ -32,8 +35,10 @@ import Begin from "@/components/contents/begining";
 export default {
   name: 'App',
   components: {
+    // ChildHappinessRuralUrbanPlot,
     EduCostMapChart,
     ChildEducationYard,
+    // ChildHappinessChart,
     SectionA,
     // HelloWorld,
     Header,
@@ -42,6 +47,7 @@ export default {
     TableOfContents,
     ExampleSection,
     MapExample,
+    // ChildDreamCareerWordCloud,
     Begin
   }
 
