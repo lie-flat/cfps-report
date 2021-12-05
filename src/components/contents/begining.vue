@@ -42,8 +42,8 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+@import "~bulma/bulma";
 .intro {
   margin: auto;
   width: 80%;
@@ -53,10 +53,20 @@ export default defineComponent({
   font-size:19px;
   font-family: wfont_1cbfba_2ce53f5018214fe19e613842ea09d504,wf_2ce53f5018214fe19e613842e,orig_fzcuheisongsbgb;
 }
+
 .card{
     width: 70%;
     margin:0 auto;
     margin-bottom: 80px;
+}
+
+@include touch {
+  .card {
+    width: 90%;
+  }
+  .intro {
+    width: 90%;
+  }
 }
 .pic{
     
