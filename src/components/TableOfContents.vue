@@ -128,7 +128,7 @@ export default defineComponent({
   &:hover {
     color: black !important;
     box-shadow: cyan 0 0 10px;
-    background-color: cyan;
+    background-color: cyan!important;
   }
 }
 </style>
