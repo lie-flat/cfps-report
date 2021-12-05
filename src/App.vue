@@ -3,6 +3,7 @@
   <div class="container is-desktop">
     <div id="columns" class="columns">
       <sections class="column">
+        <begining/>
         <education-section/>
         <career-section/>
         <child-happiness-chart/>
@@ -23,6 +24,7 @@ import EducationSection from "@/components/contents/EducationSection";
 import ChildHappinessChart from "@/components/charts/ChildHappinessChart";
 import ChildHappinessRuralUrbanPlot from "@/components/charts/ChildHappinessRuralUrbanPlot";
 import CareerSection from "@/components/contents/CareerSection";
+import Begining from './components/contents/begining.vue';
 
 export default {
   name: 'App',
@@ -35,6 +37,7 @@ export default {
     Footer,
     Sections,
     TableOfContents,
+    Begining,
   }
 
 }

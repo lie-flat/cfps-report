@@ -1,5 +1,7 @@
 <template>
-  <v-chart class="chart" :autoresize="true" :option="option"/>
+  <p>农村手机使用率</p>
+  <h2>2010-2018年间农村使用手机情况</h2>
+  <v-chart class="chart" :autoresize="true" :option="option" />
   <article class="message is-link">
     <div class="message-body">
       随着互联网的普及，2010-2018年间农村手机使用率逐年上涨
@@ -8,9 +10,9 @@
 </template>
 
 <script>
-import {use} from "echarts/core";
-import {CanvasRenderer} from "echarts/renderers";
-import {BarChart, LineChart} from "echarts/charts";
+import { use } from "echarts/core";
+import { CanvasRenderer } from "echarts/renderers";
+import { BarChart, LineChart } from "echarts/charts";
 import "echarts/lib/component/grid";
 import {
   TitleComponent,
@@ -18,7 +20,7 @@ import {
   LegendComponent,
 } from "echarts/components";
 import VChart from "vue-echarts";
-import {ref, defineComponent} from "vue";
+import { ref, defineComponent } from "vue";
 
 use([
   CanvasRenderer,
@@ -38,7 +40,7 @@ export default defineComponent({
     const option = ref({
       title: {
         text: "2010-2018年农村手机使用率",
-        left: "center"
+        left: "center",
       },
       tooltip: {
         // trigger: "item",
@@ -54,13 +56,13 @@ export default defineComponent({
       },
       series: [
         {
-          data: [0.68, 0.82, 0.88, 0.90],
+          data: [0.68, 0.82, 0.88, 0.9],
           type: "line",
-        }
+        },
       ],
     });
 
-    return {option};
+    return { option };
   },
 });
 </script>
