@@ -4,7 +4,6 @@
     <div id="columns" class="columns">
       <sections class="column">
         <education-section/>
-        <edu-cost-map-chart/>
         <child-happiness-chart/>
         <child-happiness-rural-urban-plot/>
         <child-dream-career-word-cloud/>
@@ -21,7 +20,6 @@ import Footer from "@/components/Footer";
 import Sections from './components/Sections.vue';
 import TableOfContents from "@/components/TableOfContents";
 import EducationSection from "@/components/contents/EducationSection";
-import EduCostMapChart from "@/components/EduCostMapChart";
 import ChildHappinessChart from "@/components/charts/ChildHappinessChart";
 import ChildHappinessRuralUrbanPlot from "@/components/charts/ChildHappinessRuralUrbanPlot";
 import ChildDreamCareerWordCloud from "@/components/charts/ChildDreamCareerWordCloud";
@@ -30,7 +28,6 @@ export default {
   name: 'App',
   components: {
     ChildHappinessRuralUrbanPlot,
-    EduCostMapChart,
     ChildHappinessChart,
     EducationSection,
     Header,
