@@ -11,8 +11,6 @@
         <End/>
       </sections>
       <table-of-contents class="column"/>
-
-      
     </div>
   </div>
   <Footer/>
@@ -33,7 +31,6 @@ import Question from './components/contents/RemainQ.vue'
 export default {
   name: 'App',
   components: {
-    
     LifeSection,
     CareerSection,
     EducationSection,
