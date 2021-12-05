@@ -25,12 +25,12 @@ import CareerSection from "@/components/contents/CareerSection";
 import Begining from './components/contents/begining.vue';
 import LifeSection from "@/components/contents/LifeSection";
 import End from './components/contents/End.vue'
-import EconomySection from "@/components/contents/EconomySection";
+
 
 export default {
   name: 'App',
   components: {
-    EconomySection,
+    
     LifeSection,
     CareerSection,
     EducationSection,

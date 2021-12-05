@@ -40,7 +40,7 @@ export default defineComponent({
     const option = ref({
       title: {
         text: "2010-2018农村学历变化趋势图",
-        left: "center",
+        left: "left",
       },
       tooltip: {
         trigger: "axis",

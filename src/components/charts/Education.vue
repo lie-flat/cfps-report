@@ -1,6 +1,6 @@
 <template>
   <h2>农村受教育情况</h2>
-  <p>以下是2010、2018年的学历占比图，以及2010-2018年各教育阶段人数比例变化图</p>
+  <p> &nbsp;&nbsp; 以下是2010、2018年的学历占比图，以及2010-2018年各教育阶段人数比例变化图</p>
 
   <div id="chart-education" class="columns">
     <v-chart class="chart column" :autoresize="true" :option="option2010" />

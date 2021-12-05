@@ -1,6 +1,4 @@
 <template>
-  <p>农村手机使用率</p>
-  <h2>2010-2018年间农村使用手机情况</h2>
   <v-chart id="chart-use-phone" class="chart" :autoresize="true" :option="option" />
   <article class="message is-link">
     <div class="message-body">
@@ -40,7 +38,7 @@ export default defineComponent({
     const option = ref({
       title: {
         text: "2010-2018年农村手机使用率",
-        left: "center",
+        left: "left",
       },
       tooltip: {
         // trigger: "item",
