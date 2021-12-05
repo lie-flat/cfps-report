@@ -7,11 +7,7 @@
         <education-section/>
         <career-section/>
         <life-section/>
-<<<<<<< HEAD
         <End/>
-=======
-        <economy-section/>
->>>>>>> 75dc6aead306b5113447ca5a3e051b4d07f19385
       </sections>
       <table-of-contents class="column"/>
       
