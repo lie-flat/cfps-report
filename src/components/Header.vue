@@ -29,8 +29,8 @@
           基于 CFPS 2010 - 2018 的数据
         </p>
         <p class="animate__animated animate__zoomInUp animate__decelerate subtitle">山东大学（威海）数据科学与人工智能实验班大作业</p>
-        <p><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv">(加载中)</span>次</span></p>
-        <p><span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv">(加载中)</span>人次</span></p>
+        <p><span id="busuanzi_container_site_pv">本站总访问量 <span style="color: cyan;" id="busuanzi_value_site_pv">(加载中)</span> 次</span></p>
+        <p><span id="busuanzi_container_site_uv">本站访客数 <span style="color: mediumspringgreen;" id="busuanzi_value_site_uv">(加载中)</span> 人次</span></p>
       </div>
     </div>
     <div class="hero-foot"></div>
@@ -49,7 +49,7 @@ export default defineComponent({
 });
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 #header {
   background-image: url("../assets/header-bg.jpg");
   background-attachment: fixed;
