@@ -16,7 +16,6 @@ export default defineComponent({
   name: "CareerSection",
   components: {
     ChildDreamCareerWordCloud
-
   },
 });
 </script>
