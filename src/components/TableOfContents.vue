@@ -86,8 +86,10 @@ export default defineComponent({
 }
 
 .menu-label {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: bold;
+  margin-bottom: 0.4rem!important;
+  margin-top: 0.4rem!important;
 }
 
 .menu-item-active {
@@ -109,6 +111,7 @@ export default defineComponent({
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
   margin-bottom: 0.2rem;
+  font-size: 0.8rem;
 
   &::before {
     transition: all 0.5s ease;
