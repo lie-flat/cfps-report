@@ -12,6 +12,7 @@
         <child-happiness-chart/>
         <child-happiness-rural-urban-plot/>
         <child-dream-career-word-cloud/>
+        <child-expected-education-stack-chart/>
       </sections>
       <table-of-contents class="column"/>
     </div>
@@ -32,10 +33,12 @@ import EduCostMapChart from "@/components/EduCostMapChart";
 import ChildHappinessChart from "@/components/charts/ChildHappinessChart";
 import ChildHappinessRuralUrbanPlot from "@/components/charts/ChildHappinessRuralUrbanPlot";
 import ChildDreamCareerWordCloud from "@/components/charts/ChildDreamCareerWordCloud";
+import ChildExpectedEducationStackChart from "@/components/charts/ChildExpectedEducationStackChart";
 
 export default {
   name: 'App',
   components: {
+    ChildExpectedEducationStackChart,
     ChildHappinessRuralUrbanPlot,
     EduCostMapChart,
     ChildEducationYard,
