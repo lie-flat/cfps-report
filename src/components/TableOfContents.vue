@@ -29,6 +29,7 @@
       <li><a>World</a></li>
       <li><a>AAAAA</a></li>
     </ul>
+    <p class="menu-label"><a href="#ending-section">乡村振兴的探索和发展</a></p>
     <p class="menu-label"><a href="#ending">结语</a></p>
   </aside>
 </template>
