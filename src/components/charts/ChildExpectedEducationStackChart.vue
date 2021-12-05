@@ -1,5 +1,10 @@
 <template>
   <v-chart class="chart" :autoresize="true" :option="yardOption"/>
+  <article class="message is-danger">
+    <div class="message-body">
+      无论城乡，大部分家长都期望自己的孩子达到大学本科及以上的学历，但是，也有一部分家长认为大专、高中、甚至初中的学历足矣。
+    </div>
+  </article>
 </template>
 
 <script>
@@ -42,19 +47,21 @@ export default defineComponent({
           type: 'shadow' // 'shadow' as default; can also be 'line' or 'shadow'
         }
       },
-      legend: {},
-      animationDuration: 3000,
-      grid: {
-        left: '3%',
-        right: '4%',
-        containLabel: true
+      legend: {
+        left: 'center',
+        top: '30px'
       },
+      animationDuration: 3000,
       xAxis: {
         type: 'value'
       },
       yAxis: {
         type: 'category',
         data: ['城镇', '乡村']
+      },
+      title: {
+        text: "家长所希望的孩子的受教育水平",
+        left: "center",
       },
       timeline: {data: ['2010', '2012', '2014', '2016', '2018'],},
       options: [

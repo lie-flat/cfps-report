@@ -19,7 +19,7 @@ import {
 import VChart from "vue-echarts";
 import {ref, defineComponent} from "vue";
 import * as echarts from "echarts";
-import china from "../assets/geo-china.json";
+import china from "../../assets/geo-china.json";
 
 use([
   CanvasRenderer,
@@ -31,7 +31,7 @@ use([
 ]);
 
 export default defineComponent({
-  name: "MapExample",
+  name: "ChildExpectedScoreMap",
   components: {VChart},
   setup() {
     echarts.registerMap("china", china);
