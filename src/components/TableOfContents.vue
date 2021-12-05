@@ -86,7 +86,7 @@ export default defineComponent({
 }
 
 .menu-label {
-  font-size: 0.9rem;
+  font-size: 0.9rem!important;
   font-weight: bold;
   margin-bottom: 0.4rem!important;
   margin-top: 0.4rem!important;
