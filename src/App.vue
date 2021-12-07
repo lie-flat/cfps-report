@@ -22,7 +22,7 @@ import Sections from '@/components/Sections.vue';
 import TableOfContents from "@/components/TableOfContents";
 import EducationSection from "@/components/contents/EducationSection";
 import CareerSection from "@/components/contents/CareerSection";
-import Begining from '@/components/contents/begining.vue';
+import Begining from '@/components/contents/Begining.vue';
 import LifeSection from "@/components/contents/LifeSection";
 import End from '@/components/contents/End.vue'
 import Question from '@/components/contents/RemainQ.vue'
