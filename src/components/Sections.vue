@@ -8,9 +8,12 @@
 import {defineComponent, provide} from "vue";
 import {THEME_KEY} from 'vue-echarts';
 
-provide(THEME_KEY, 'light');
+
 export default defineComponent({
   name: "Sections",
+  setup() {
+    provide(THEME_KEY, 'light');
+  }
 });
 </script>
 
