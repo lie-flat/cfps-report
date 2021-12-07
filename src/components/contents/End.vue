@@ -1,5 +1,5 @@
 <template>
-  <section id="ending" class="content">
+  <section id="end" class="content">
     <hr class="custom">
     <h1>结语</h1>
 
