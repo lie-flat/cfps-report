@@ -16,16 +16,16 @@
   <Footer/>
 </template>
 <script>
-import Header from './components/Header.vue'
+import Header from '@/components/Header.vue'
 import Footer from "@/components/Footer";
-import Sections from './components/Sections.vue';
+import Sections from '@/components/Sections.vue';
 import TableOfContents from "@/components/TableOfContents";
 import EducationSection from "@/components/contents/EducationSection";
 import CareerSection from "@/components/contents/CareerSection";
-import Begining from './components/contents/begining.vue';
+import Begining from '@/components/contents/begining.vue';
 import LifeSection from "@/components/contents/LifeSection";
-import End from './components/contents/End.vue'
-import Question from './components/contents/RemainQ.vue'
+import End from '@/components/contents/End.vue'
+import Question from '@/components/contents/RemainQ.vue'
 
 
 export default {
