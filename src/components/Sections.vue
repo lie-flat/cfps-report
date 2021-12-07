@@ -15,4 +15,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
+#sections {
+  padding: 0;
+}
 </style>

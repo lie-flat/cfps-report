@@ -1,8 +1,8 @@
 <template>
   <Header/>
-  <div class="container is-desktop">
-    <div id="columns" class="columns">
-      <sections class="column">
+  <div class="container">
+    <div id="columns" class="columns is-desktop">
+      <sections class="column is-9-desktop">
         <begining/>
         <education-section/>
         <career-section/>
@@ -10,7 +10,7 @@
         <question/>
         <End/>
       </sections>
-      <table-of-contents class="column"/>
+      <table-of-contents class="column is-3"/>
     </div>
   </div>
   <Footer/>
@@ -48,5 +48,7 @@ export default {
 <style>
 #columns {
   margin-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
 }
 </style>
