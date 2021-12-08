@@ -105,7 +105,7 @@ export default defineComponent({
 
 .menu-list a {
   position: relative;
-  transition: all 0.5s ease;
+  transition: all 0.7s ease;
   border-radius: 6px;
   overflow: hidden;
   padding-top: 0.4rem;
@@ -114,7 +114,7 @@ export default defineComponent({
   font-size: 0.8rem;
 
   &::before {
-    transition: all 0.5s ease;
+    transition: all 0.7s ease;
     height: 100%;
     content: '';
     width: 0;
