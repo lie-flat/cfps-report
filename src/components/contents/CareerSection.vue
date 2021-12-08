@@ -1,7 +1,7 @@
 <template>
   <section id="career-section" class="section is-medium">
     <h1 class="title">工作</h1>
-    <h2 class="subtitle">工作小节子标题</h2>
+    <h2 class="subtitle">让我们来欣赏一下有关工作的可视化图表。</h2>
   </section>
   <div class="content">
     <child-dream-career-word-cloud/>

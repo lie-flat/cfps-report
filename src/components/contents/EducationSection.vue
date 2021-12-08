@@ -1,7 +1,7 @@
 <template>
   <section id="education-section" class="section is-medium">
     <h1 class="title">教育</h1>
-    <h2 class="subtitle">教育小节子标题</h2>
+    <h2 class="subtitle">教育是社会不可或缺的一部分，让我们来通过教育，透视城乡差异与乡村振兴。</h2>
   </section>
   <div class="content">
     <education/>
