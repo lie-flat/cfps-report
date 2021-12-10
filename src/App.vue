@@ -7,6 +7,7 @@
         <education-section/>
         <career-section/>
         <life-section/>
+        <economy-section/>
         <question/>
         <End/>
       </sections>
@@ -26,6 +27,7 @@ import Begining from '@/components/contents/Begining.vue';
 import LifeSection from "@/components/contents/LifeSection";
 import End from '@/components/contents/End.vue'
 import Question from '@/components/contents/RemainQ.vue'
+import EconomySection from './components/contents/EconomySection.vue';
 
 
 export default {
@@ -40,7 +42,8 @@ export default {
     TableOfContents,
     Begining,
     End,
-    Question
+    Question,
+    EconomySection,
   },
 }
 </script>

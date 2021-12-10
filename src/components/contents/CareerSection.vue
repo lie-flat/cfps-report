@@ -5,17 +5,20 @@
   </section>
   <div class="content">
     <child-dream-career-word-cloud/>
+    <agriculture-family-number/>
   </div>
 </template>
 
 <script>
 import {defineComponent} from "vue";
 import ChildDreamCareerWordCloud from "@/components/charts/ChildDreamCareerWordCloud";
+import AgricultureFamilyNumber from "../charts/AgricultureFamilyNumber.vue";
 
 export default defineComponent({
   name: "CareerSection",
   components: {
-    ChildDreamCareerWordCloud
+    ChildDreamCareerWordCloud,
+    AgricultureFamilyNumber
   },
 });
 </script>
