@@ -47,9 +47,7 @@ export default defineComponent({
       },
 
       grid: {
-        left: "7%",
-        right: "4%",
-        bottom: "40",
+        left: "1%",
         containLabel: true,
       },
       toolbox: {
