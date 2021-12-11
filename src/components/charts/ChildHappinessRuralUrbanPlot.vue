@@ -53,8 +53,12 @@ export default defineComponent({
         text: '少年儿童幸福程度',
         left: "center"
       },
+      grid: {
+        left: "1%",
+        containLabel: true
+      },
       legend: {
-        "bottom": 0
+        "bottom": "10%"
       },
       tooltip: {
         order: 'valueDesc',

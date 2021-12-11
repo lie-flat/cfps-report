@@ -64,9 +64,7 @@ export default defineComponent({
     }
   },
   grid: {
-    left: '9%',
-    right: '4%',
-    bottom: '40',
+    left: '1%',
     containLabel: true
   },
   xAxis: [
