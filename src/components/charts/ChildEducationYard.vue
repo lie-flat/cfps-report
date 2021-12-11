@@ -1,8 +1,4 @@
 <template>
-  <!--  <section id="example-section" class="section is-medium">-->
-  <!--    <h1 class="title">示例标题</h1>-->
-  <!--    <h2 class="subtitle">示例子标题</h2>-->
-  <!--  </section>-->
   <v-chart id="chart-child-yard" class="chart" :autoresize="true" :option="yardOption"/>
   <article class="message is-success">
     <div class="message-body">
@@ -24,7 +20,6 @@ import {
   GridComponent
 } from "echarts/components";
 import VChart from "vue-echarts";
-// import * as echarts from "echarts";
 
 use([
   CanvasRenderer,
@@ -72,14 +67,12 @@ export default defineComponent({
         order: 'valueDesc',
         trigger: 'axis',
         formatter: function (params) {
-          // console.log(params);
           return "幼儿园/学前班入学率" + params.reduce((acc, p, i) => `${acc}<br/>${p.marker} ${p.seriesName} ${100 * p.data[i + 1]}%`, '');
         },
       },
       xAxis: {
         name: "年",
         type: 'category',
-        // nameLocation: 'middle'
       },
       yAxis: {
         name: '入学率',

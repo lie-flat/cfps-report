@@ -2,7 +2,6 @@
   <section id="ending-section" class="section is-medium">
     <h1 class="title">乡村振兴的探索和发展</h1>
   </section>
-  <!-- <hr class="custom"> -->
   <div class="content">
     <h1>案例展示</h1>
     <ol>
