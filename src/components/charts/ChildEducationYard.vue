@@ -1,8 +1,4 @@
 <template>
-  <!--  <section id="example-section" class="section is-medium">-->
-  <!--    <h1 class="title">示例标题</h1>-->
-  <!--    <h2 class="subtitle">示例子标题</h2>-->
-  <!--  </section>-->
   <v-chart id="chart-child-yard" class="chart" :autoresize="true" :option="yardOption"/>
   <article class="message is-success">
     <div class="message-body">
@@ -24,7 +20,6 @@ import {
   GridComponent
 } from "echarts/components";
 import VChart from "vue-echarts";
-// import * as echarts from "echarts";
 
 use([
   CanvasRenderer,
@@ -43,33 +38,6 @@ export default defineComponent({
     VChart,
   },
   setup() {
-    // const seriesList = [];
-    // echarts.util.each(["城镇", "乡村"], function (type) {
-    //   seriesList.push({
-    //     type: 'line',
-    //     showSymbol: false,
-    //     name: type,
-    //     endLabel: {
-    //       show: true,
-    //       formatter: function (params) {
-    //         return params.value[3] + ': ' + params.value[0];
-    //       }
-    //     },
-    //     labelLayout: {
-    //       moveOverlap: 'shiftY'
-    //     },
-    //     emphasis: {
-    //       focus: 'series'
-    //     },
-    //     encode: {
-    //       x: '年',
-    //       y: '幼儿园/学前班入学率',
-    //       label: ['类型', '幼儿园/学前班入学率'],
-    //       itemName: '年',
-    //       tooltip: ['幼儿园/学前班入学率']
-    //     }
-    //   });
-    // });
     const yardOption = ref({
       animationDuration: 5000,
       dataset: [
@@ -91,21 +59,23 @@ export default defineComponent({
       legend: {
         "bottom": 0
       },
+      grid: {
+        left: '1%',
+        containLabel: true,
+      },
       tooltip: {
         order: 'valueDesc',
         trigger: 'axis',
         formatter: function (params) {
-          // console.log(params);
           return "幼儿园/学前班入学率" + params.reduce((acc, p, i) => `${acc}<br/>${p.marker} ${p.seriesName} ${100 * p.data[i + 1]}%`, '');
         },
       },
       xAxis: {
         name: "年",
         type: 'category',
-        // nameLocation: 'middle'
       },
       yAxis: {
-        name: '幼儿园/学前班入学率',
+        name: '入学率',
         type: "value",
         axisLabel: {
           "formatter": v => `${v * 100}%`

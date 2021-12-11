@@ -1,9 +1,4 @@
 <template>
-  <!-- <section id="example-section" class="section is-medium">
-    <h1 class="title">示例标题</h1>
-    <h2 class="subtitle">示例子标题</h2>
-  </section> -->
-
   <section id='intro' class="content">
     <h1>引言</h1>
     <div class='pic'>
@@ -13,7 +8,7 @@
     <div class="card">
       <div class="card-content">
         <div class="intro">
-          
+
           <p>1.把解决好“三农“问题作为全党工作重中之重</p>
           <p>2.产业兴旺、生态宜居、乡风文明、治理有效、生活富裕的总要求</p>
           <p>3.完善承包地”三权“分置制度，第二轮土地承包到期后再延长三十年。</p>
@@ -33,31 +28,30 @@
 
 
 <script>
-import { defineComponent } from "vue";
-// import Edu from "@/components/edu";
+import {defineComponent} from "vue";
 
 export default defineComponent({
   name: "Begin",
- 
+
 });
 </script>
 
 <style lang="scss">
 @import "~bulma/sass/utilities/mixins";
+
 .intro {
   margin: auto;
   width: 80%;
   /* border: 3px solid green; */
   padding: 10px;
   font-weight: bold;
-  font-size:19px;
-  font-family: wfont_1cbfba_2ce53f5018214fe19e613842ea09d504,wf_2ce53f5018214fe19e613842e,orig_fzcuheisongsbgb;
+  font-size: 19px;
+  font-family: wfont_1cbfba_2ce53f5018214fe19e613842ea09d504, wf_2ce53f5018214fe19e613842e, orig_fzcuheisongsbgb;
 }
 
-.card{
-    width: 70%;
-    margin:0 auto;
-    margin-bottom: 80px;
+.card {
+  width: 70%;
+  margin: 0 auto 80px;
 }
 
 @include touch {
@@ -68,10 +62,11 @@ export default defineComponent({
     width: 90%;
   }
 }
-.pic{
-    
-    margin-bottom: 60px;
-    margin-top: 0px;
-    
+
+.pic {
+
+  margin-bottom: 60px;
+  margin-top: 0;
+
 }
 </style>

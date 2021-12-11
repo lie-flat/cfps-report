@@ -6,7 +6,8 @@
         BY-NC-SA 4.0)</a>
       </p>
       <p>Github: <a href="https://github.com/lie-flat/cfps-report">https://github.com/lie-flat/cfps-report</a></p>
-      <p></p>
+      <p>数据分析代码：<a href="https://github.com/lie-flat/cfps-analyze/tree/master/nbs">https://github.com/lie-flat/cfps-analyze/tree/master/nbs</a></p>
+      <p>部分讲解幻灯片：<a href="https://github.com/lie-flat/slides">https://github.com/lie-flat/slides</a></p>
     </div>
   </footer>
 </template>
