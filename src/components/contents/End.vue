@@ -26,7 +26,6 @@
 
 <script>
 import {defineComponent} from "vue";
-// import Edu from "@/components/edu";
 
 export default defineComponent({
   name: "End",
@@ -49,8 +48,7 @@ export default defineComponent({
 
 .card {
   width: 70%;
-  margin: 0 auto;
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
 }
 
 @include touch {
@@ -64,7 +62,7 @@ export default defineComponent({
 
 .pic {
   margin-bottom: 60px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .custom {

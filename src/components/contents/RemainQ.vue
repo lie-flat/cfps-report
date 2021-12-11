@@ -1,9 +1,9 @@
 <template>
-  <section id="ending" class="content">
-    <section id="ending-section" class="section is-medium">
-      <h1 class="title">乡村振兴的探索和发展</h1>
-    </section>
-    <!-- <hr class="custom"> -->
+  <section id="ending-section" class="section is-medium">
+    <h1 class="title">乡村振兴的探索和发展</h1>
+  </section>
+  <!-- <hr class="custom"> -->
+  <div class="content">
     <h1>案例展示</h1>
     <ol>
       <li>菏泽单县：实施乡村振兴战略、打造乡村振兴齐鲁样板，是习近平总书记对山东乡村振兴工作的殷切希望。单县加快实施乡村振兴发展战略，其中将单县浮龙湖生态文化旅游度假区作为重点项目建设，
@@ -27,13 +27,12 @@
         信贷资源配置等仍主要集中于城市，农村的信用体系建设尚未形成。网络信息技术在农村金融中发挥作用有限，金融机构对新型经营主体和小农户渗透力不足。
       </li>
     </ul>
-  </section>
+  </div>
 </template>
 
 
 <script>
 import {defineComponent} from "vue";
-// import Edu from "@/components/edu";
 
 export default defineComponent({
   name: "Question",
