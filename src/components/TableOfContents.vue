@@ -83,6 +83,18 @@ export default defineComponent({
   position: sticky;
   top: 0;
   height: min-content;
+  margin-top: 0;
+  max-height: 95vh;
+  overflow-y: auto;
+  & > .subtitle {
+    position: sticky;
+    top: 0;
+    left: 0;
+    text-align: center;
+    border-radius: 0 0 0.5rem 0.5rem;
+    background-color: white;
+    z-index: 1;
+  }
 }
 
 .menu-label {
