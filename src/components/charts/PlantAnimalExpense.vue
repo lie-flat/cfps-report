@@ -172,10 +172,6 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-#example-section {
-  background-image: url("../../assets/header-bg.jpg");
-}
-
 .chart {
   height: 350px;
 }
