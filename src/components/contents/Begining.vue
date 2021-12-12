@@ -19,7 +19,7 @@
           </p>
           <p>7.促进农村一二三产业发展，支持和鼓励农名就业创业</p>
           <p>8.健全自治、法治、德治相结合的乡村治理体系</p>
-          <p>9.懂农业、爱农村、爱农民的‘三农”工作队伍</p>
+          <p>9.懂农业、爱农村、爱农民的“三农”工作队伍</p>
         </div>
       </div>
     </div>
@@ -39,29 +39,11 @@ export default defineComponent({
 <style lang="scss">
 @import "~bulma/sass/utilities/mixins";
 
-.intro {
-  margin: auto;
-  width: 80%;
-  /* border: 3px solid green; */
-  padding: 10px;
-  font-weight: bold;
-  font-size: 19px;
-  font-family: wfont_1cbfba_2ce53f5018214fe19e613842ea09d504, wf_2ce53f5018214fe19e613842e, orig_fzcuheisongsbgb;
-}
-
 .card {
   width: 70%;
   margin: 0 auto 80px;
 }
 
-@include touch {
-  .card {
-    width: 90%;
-  }
-  .intro {
-    width: 90%;
-  }
-}
 
 .pic {
 
