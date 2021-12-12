@@ -39,38 +39,15 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
-@import "~bulma/sass/utilities/mixins";
-
-.intro {
-  margin: auto;
-  //   width: 80%;
-  /* border: 3px solid green; */
-  //   padding: 10px;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: wfont_1cbfba_2ce53f5018214fe19e613842ea09d504,
-  wf_2ce53f5018214fe19e613842e, orig_fzcuheisongsbgb;
-  letter-spacing: 0.1em;
-}
-
 .card {
   width: 70%;
   margin: 0 auto;
   margin-bottom: 80px;
 }
 
-@include touch {
-  .card {
-    width: 90%;
-  }
-  .intro {
-    width: 90%;
-  }
-}
-
 .pic {
   margin-bottom: 60px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .custom {
@@ -79,13 +56,12 @@ export default defineComponent({
 }
 
 #ending-section {
-  background-image: url("../../assets/develop.jpg");
+  background-image: url("../../assets/develop.webp");
 
 }
 
 li {
   letter-spacing: 0.1em;
-  font-family: wfont_1cbfba_2ce53f5018214fe19e613842ea09d504, wf_2ce53f5018214fe19e613842e, orig_fzcuheisongsbgb;
   font-size: 20px;
 }
 

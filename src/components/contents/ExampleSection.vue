@@ -332,7 +332,7 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 #example-section {
-  background-image: url("../../assets/header-bg.jpg");
+  background-image: url("../../assets/header-bg.webp");
 }
 
 .chart {

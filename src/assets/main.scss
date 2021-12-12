@@ -15,6 +15,25 @@
 @import "~bulma/sass/grid/columns";
 @import "~bulma/sass/layout/all";
 
+
+.intro {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: STXinwei, KaiTi, "Microsoft YaHei", "Microsoft JhengHei", "STKaiti", "Hiragino Sans GB", SimHei, Arial, sans-serif;
+}
+
+@include touch {
+  .card {
+    width: 90%;
+  }
+  .intro {
+    width: 90%;
+  }
+}
+
 .section {
   background-attachment: fixed;
   margin-bottom: 10px;

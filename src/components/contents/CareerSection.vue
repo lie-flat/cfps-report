@@ -25,6 +25,6 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 #career-section {
-  background-image: url("../../assets/career-bg.jpg");
+  background-image: url("../../assets/career-bg.webp");
 }
 </style>

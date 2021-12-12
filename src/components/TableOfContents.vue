@@ -25,9 +25,9 @@
     </ul>
     <p class="menu-label"><a href="#economy-section">经济</a></p>
     <ul class="menu-list">
-      <li><a>Hello</a></li>
-      <li><a>World</a></li>
-      <li><a>AAAAA</a></li>
+      <li><a href="#">Hello</a></li>
+      <li><a href="#">World</a></li>
+      <li><a href="#">AAAAA</a></li>
     </ul>
     <p class="menu-label"><a href="#ending-section">乡村振兴的探索和发展</a></p>
     <p class="menu-label"><a href="#ending">结语</a></p>
@@ -82,14 +82,28 @@ export default defineComponent({
   padding-left: 30px;
   position: sticky;
   top: 0;
+  margin-top: 0;
+  padding-top: 0;
   height: min-content;
+  max-height: 95vh;
+  overflow-y: auto;
+
+  & > .subtitle {
+    position: sticky;
+    top: 0;
+    left: 0;
+    text-align: center;
+    border-radius: 0 0 0.5rem 0.5rem;
+    background-color: white;
+    z-index: 1;
+  }
 }
 
 .menu-label {
-  font-size: 0.9rem!important;
+  font-size: 0.9rem !important;
   font-weight: bold;
-  margin-bottom: 0.4rem!important;
-  margin-top: 0.4rem!important;
+  margin-bottom: 0.4rem !important;
+  margin-top: 0.4rem !important;
 }
 
 .menu-item-active {
@@ -128,7 +142,7 @@ export default defineComponent({
   &:hover {
     color: black !important;
     box-shadow: cyan 0 0 10px;
-    background-color: cyan!important;
+    background-color: cyan !important;
   }
 }
 </style>
