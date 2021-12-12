@@ -2,7 +2,7 @@
   <section id='intro' class="content">
     <h1>引言</h1>
     <div class='pic'>
-      <img alt="xi's words" src='../../assets/xi3.png'>
+      <img alt="xi's words" src='../../assets/xi3.webp'>
     </div>
     <!-- <h2>乡村振兴内容</h2> -->
     <div class="card">

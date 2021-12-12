@@ -23,6 +23,6 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 #economy-section {
-  background-image: url("../../assets/economy-bg.jpg");
+  background-image: url("../../assets/economy-bg.webp");
 }
 </style>

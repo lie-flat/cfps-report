@@ -79,7 +79,7 @@ export default defineComponent({
 }
 
 #ending-section {
-  background-image: url("../../assets/develop.jpg");
+  background-image: url("../../assets/develop.webp");
 
 }
 

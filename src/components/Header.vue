@@ -53,7 +53,7 @@ export default defineComponent({
 
 <style lang="scss">
 #header {
-  background-image: url("../assets/header-bg.jpg");
+  background-image: url("../assets/header-bg.webp");
   background-attachment: fixed;
   background-size: cover;
   color: azure !important;

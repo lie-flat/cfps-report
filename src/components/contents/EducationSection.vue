@@ -37,6 +37,6 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 #education-section {
-  background-image: url("../../assets/edu-bg.jpg");
+  background-image: url("../../assets/edu-bg.webp");
 }
 </style>

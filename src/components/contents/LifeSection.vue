@@ -24,6 +24,6 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 #life-section {
-  background-image: url("../../assets/life-bg.jpg");
+  background-image: url("../../assets/life-bg.webp");
 }
 </style>
