@@ -5,18 +5,23 @@
   </section>
   <div class="content">
     <urban-rural-income-expense/>
+    <urban-rural-family-consume/>
+    <plant-animal-expense/>
   </div>
 </template>
 
 <script>
 import {defineComponent} from "vue";
+import PlantAnimalExpense from "../charts/PlantAnimalExpense.vue";
+import UrbanRuralFamilyConsume from "../charts/UrbanRuralFamilyConsume.vue";
 import UrbanRuralIncomeExpense from "../charts/UrbanRuralIncomeExpense.vue";
 
 export default defineComponent({
   name: "EconomySection",
   components: {
-    UrbanRuralIncomeExpense
-    
+    UrbanRuralIncomeExpense,
+    UrbanRuralFamilyConsume,
+    PlantAnimalExpense
   },
 });
 </script>

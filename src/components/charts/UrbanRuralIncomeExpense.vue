@@ -63,9 +63,12 @@ export default defineComponent({
       tooltip: {
       },
       legend: {
-        data: ['城镇平均收入','乡村平均收入','城镇平均支出','乡村平均支出'],
-        orient: 'vertical',
-        right: 10,
+        data: ['城镇平均收入','城镇平均支出','乡村平均收入','乡村平均支出'],
+        bottom: 10,
+      },
+      grid: {
+        containLabel: true,
+        left: '1%'
       },
       series: [
         {
@@ -110,8 +113,11 @@ export default defineComponent({
       },
       legend: {
         data: ['城镇收支比', '乡村收支比'],
-        orient: 'vertical',
-        right: 10,
+        bottom: 10,
+      },
+      grid: {
+        containLabel: true,
+        left: '1%'
       },
       series: [
         {
