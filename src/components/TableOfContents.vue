@@ -90,12 +90,14 @@ export default defineComponent({
   height: min-content;
   max-height: 98vh;
   overflow-y: auto;
+  padding-bottom: 0;
 
   & > .subtitle {
     position: sticky;
     top: 0;
     left: 0;
     text-align: center;
+    margin-bottom: 0;
     border-radius: 0 0 0.5rem 0.5rem;
     background-color: white;
     z-index: 1;
