@@ -9,7 +9,7 @@
       <li><a href="#chart-use-phone">农村手机使用情况</a></li>
       <li><a href="#chart-child-yard">幼儿园/学前班入学率对比</a></li>
       <li><a href="#chart-expected-education">家长所希望的孩子的教育水平</a></li>
-      <li><a href="#chart-expected-score">各省份家长对孩子的平均期望成绩</a></li>
+      <li><a href="#chart-expected-score">各省份家长的平均期望成绩</a></li>
       <li><a href="#chart-education-cost">过去12个月家庭教育总支出</a></li>
     </ul>
     <p class="menu-label"><a href="#career-section">工作</a></p>
@@ -87,7 +87,7 @@ export default defineComponent({
   margin-top: 0;
   padding-top: 0;
   height: min-content;
-  max-height: 95vh;
+  max-height: 98vh;
   overflow-y: auto;
 
   & > .subtitle {
