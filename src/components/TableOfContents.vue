@@ -32,7 +32,7 @@
       <li><a href="#chart-finance-situation">家庭存款理财情况</a></li>
     </ul>
     <p class="menu-label"><a href="#ending-section">乡村振兴的探索和发展</a></p>
-    <p class="menu-label"><a href="#ending">结语</a></p>
+    <p class="menu-label"><a href="#end">结语</a></p>
   </aside>
 </template>
 
@@ -82,6 +82,7 @@ export default defineComponent({
 
 #toc {
   padding-left: 30px;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   margin-top: 0;
