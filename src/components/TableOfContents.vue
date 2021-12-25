@@ -66,7 +66,7 @@ export default defineComponent({
     });
 
     // Track all sections that have an `id` applied
-    document.querySelectorAll('#sections div[id],.chart[id]').forEach((section) => {
+    document.querySelectorAll('#sections div[id],.chart[id],h2[id]').forEach((section) => {
       this.observer.observe(section);
     });
   },

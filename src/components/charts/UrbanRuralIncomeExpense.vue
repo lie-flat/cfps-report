@@ -1,19 +1,21 @@
 <template>
-  <h2 id="chart-urban-rural-income-expense">城镇乡村收入支出对比</h2>
-  <p>
-    对于城镇和乡村的家庭，其各年的收入和支出，以及收支比如下两折线图所示：
-  </p>
-  <v-chart class="chart" :autoresize="true" :option="urbanRuralIncomeExpense"/>
-  <v-chart class="chart" :autoresize="true" :option="urbanRuralIeRatio"/>
-  <article class="message is-success">
-    <div class="message-body">
-      可以看到，这几年来城镇和农村的家庭收入和支出均有增加，不过城镇增加的幅度明显大于农村。
-      <br />
-      对比两幅图，我们还可以看到，2012年以后，收入和支出都增加，但收支比也都增加。
-      特别是2014和2018年，乡村的收支比都大于城镇，
-      可以认为，乡村家庭的收入增加后，收入更多地用于储蓄，而不是消费。
-    </div>
-  </article>
+  <div id="chart-urban-rural-income-expense">
+    <h2>城镇乡村收入支出对比</h2>
+    <p>
+      对于城镇和乡村的家庭，其各年的收入和支出，以及收支比如下两折线图所示：
+    </p>
+    <v-chart class="chart" :autoresize="true" :option="urbanRuralIncomeExpense"/>
+    <v-chart class="chart" :autoresize="true" :option="urbanRuralIeRatio"/>
+    <article class="message is-success">
+      <div class="message-body">
+        可以看到，这几年来城镇和农村的家庭收入和支出均有增加，不过城镇增加的幅度明显大于农村。
+        <br/>
+        对比两幅图，我们还可以看到，2012年以后，收入和支出都增加，但收支比也都增加。
+        特别是2014和2018年，乡村的收支比都大于城镇，
+        可以认为，乡村家庭的收入增加后，收入更多地用于储蓄，而不是消费。
+      </div>
+    </article>
+  </div>
 </template>
 
 <script>
@@ -60,10 +62,9 @@ export default defineComponent({
         type: 'value',
         name: '平均收入或支出(元)'
       },
-      tooltip: {
-      },
+      tooltip: {},
       legend: {
-        data: ['城镇平均收入','城镇平均支出','乡村平均收入','乡村平均支出'],
+        data: ['城镇平均收入', '城镇平均支出', '乡村平均收入', '乡村平均支出'],
         bottom: 10,
       },
       grid: {
@@ -109,8 +110,7 @@ export default defineComponent({
         min: 1,
         max: 1.6
       },
-      tooltip: {
-      },
+      tooltip: {},
       legend: {
         data: ['城镇收支比', '乡村收支比'],
         bottom: 10,
@@ -132,7 +132,7 @@ export default defineComponent({
         }
       ]
     });
-    
+
     return {urbanRuralIncomeExpense, urbanRuralIeRatio};
   }
 });
