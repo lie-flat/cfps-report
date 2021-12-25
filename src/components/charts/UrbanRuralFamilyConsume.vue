@@ -1,5 +1,5 @@
 <template>
-  <h2>城镇和乡村的消费目的对比</h2>
+  <h2 id="chart-urban-rural-family-consume">城镇和乡村的消费目的对比</h2>
   <p>这是2010和2018年城镇和乡村的消费目的对比图：</p>
 
   <div id="chart-education" class="columns is-desktop">
@@ -11,11 +11,19 @@
     <v-chart class="chart column" :autoresize="true" :option="urban2018" />
     <v-chart class="chart column" :autoresize="true" :option="rural2018" />
   </div>
+
+  <p style="color: grey;">
+    注：此处的食品支出比例不代表Engel系数，因为这里是以总消费为100%，不是总收入
+  </p>
   <article class="message is-info">
     <div class="message-body">
       <strong>
         可以看到，城乡的消费目的基本一致，乡村在交通、医疗的花费略高于城镇，
-        这可能是乡村振兴
+        但这两项的比例相比2010年已经减少许多。
+        这可能是乡村振兴，加强交通、医疗基础设施建设之后带来的直接影响。
+
+        但我们也看到，食品和居住的支出仍然占有较高的份额，我们仍需要继续改进，
+        增加经济上的宏观调控，促进我们的美好生活。
       </strong>
     </div>
   </article>

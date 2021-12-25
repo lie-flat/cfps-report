@@ -1,12 +1,12 @@
 <template>
-  <h2>种植业林业和畜牧业渔业开销</h2>
+  <h2 id="chart-plant-animal-expense">种植业林业和畜牧业渔业开销</h2>
   <p>以下是从事种植业/林业的家庭各方面开销对比：</p>
   <v-chart class="chart" :autoresize="true" :option="plantExpense" />
   <p>以下是从事畜牧业/渔业的家庭各方面开销对比：</p>
   <v-chart class="chart" :autoresize="true" :option="animalExpense" />
   <article class="message is-success">
     <div class="message-body">
-      
+      农林业基本上成本增加，但畜牧业和渔业的投入却下降了。这大概与畜牧业产业化有关。
     </div>
   </article>
 </template>

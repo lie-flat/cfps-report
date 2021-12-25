@@ -1,15 +1,15 @@
 <template>
-  <h2 id="chart-agriculture-family-number">农业家庭数量变化</h2>
-  <p>
-    以下是农村中农业的家庭的变化情况
-  </p>
-  <v-chart class="chart" :autoresize="true" :option="ruralAgriRatio"/>
-  <article class="message is-success">
-    <div class="message-body">
-      可以看到，农村中从事农业家庭的比例依然很高，但农村中从事农业的家庭比例也正逐渐下降。
-      这个趋势离不开乡村的经济改革政策。
-    </div>
-  </article>
+  <section id="example-section" class="section is-medium">
+    <h1 class="title">示例标题</h1>
+    <h2 class="subtitle">示例子标题</h2>
+  </section>
+  <div class="content">
+    <h2>家庭农业情况</h2>
+    <p>
+      以下是每年的食物支出和恩格尔系数：
+    </p>
+    <v-chart class="chart" :autoresize="true" :option="foodExpense"/>
+  </div>
 </template>
 
 <script>
@@ -25,6 +25,7 @@ import {
   GridComponent
 } from "echarts/components";
 import VChart from "vue-echarts";
+import * as echarts from "echarts";
 
 use([
   CanvasRenderer,
@@ -38,14 +39,14 @@ use([
 ]);
 
 export default defineComponent({
-  name: "AgricultureFamilyNumber",
+  name: "Agriculture",
   components: {
     VChart,
   },
   setup() {
-    const ruralAgriRatio = ref({
+    const foodExpense = ref({
       title: {
-        text: "农村农业家庭比例变化情况",
+        text: "食物支出",
         left: "center"
       },
       xAxis: {
@@ -53,27 +54,30 @@ export default defineComponent({
       },
       yAxis: {
         type: 'value',
-        name: '农村农业家庭比例(%)',
+        name: '农村农业人口比例(%)',
         max: 100,
         min: 0
       },
       tooltip: {
       },
-      formatter: '农业家庭比例<br />{b}年: {c}%',
       series: [
         {
           data: [79.71, 78.63, 73.23, 73.18, 69.24],
-          type: 'line'
+          type: 'bar'
         }
       ]
     });
     
-    return {ruralAgriRatio};
+    return {foodExpense};
   }
 });
 </script>
 
 <style lang="scss" scoped>
+#example-section {
+  background-image: url("../../assets/header-bg.jpg");
+}
+
 .chart {
   height: 350px;
 }

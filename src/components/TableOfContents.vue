@@ -16,6 +16,7 @@
     <ul class="menu-list">
       <li><a href="#chart-child-dream-career">青少年的理想职业</a></li>
       <li><a href="#chart-expected-child-career">家长对青少年的期望职业</a></li>
+      <li><a href="#chart-agriculture-family-number">从事农业家庭数量变化</a></li>
     </ul>
     <p class="menu-label"><a href="#life-section">生活</a></p>
     <ul class="menu-list">
@@ -25,9 +26,10 @@
     </ul>
     <p class="menu-label"><a href="#economy-section">经济</a></p>
     <ul class="menu-list">
-      <li><a href="#">Hello</a></li>
-      <li><a href="#">World</a></li>
-      <li><a href="#">AAAAA</a></li>
+      <li><a href="#chart-urban-rural-income-expense">城镇乡村收入支出对比</a></li>
+      <li><a href="#chart-urban-rural-family-consume">居民消费情况</a></li>
+      <li><a href="#chart-plant-animal-expense">农业各方面开销</a></li>
+      <li><a href="#chart-finance-situation">家庭存款理财情况</a></li>
     </ul>
     <p class="menu-label"><a href="#ending-section">乡村振兴的探索和发展</a></p>
     <p class="menu-label"><a href="#ending">结语</a></p>

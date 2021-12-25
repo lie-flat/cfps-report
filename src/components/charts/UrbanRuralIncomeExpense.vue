@@ -1,5 +1,5 @@
 <template>
-  <h2>城镇乡村收入支出对比</h2>
+  <h2 id="chart-urban-rural-income-expense">城镇乡村收入支出对比</h2>
   <p>
     对于城镇和乡村的家庭，其各年的收入和支出，以及收支比如下两折线图所示：
   </p>
