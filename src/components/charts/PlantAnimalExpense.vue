@@ -1,5 +1,5 @@
 <template>
-  <div id="chart-plant-animal-expense">
+  <div id="chart-plant-animal-expense" class="mt1rem">
     <h2>种植业林业和畜牧业渔业开销</h2>
     <p>以下是从事种植业/林业的家庭各方面开销对比：</p>
     <v-chart class="chart" :autoresize="true" :option="plantExpense"/>

@@ -1,5 +1,5 @@
 <template>
-  <div id="chart-urban-rural-family-consume">
+  <div id="chart-urban-rural-family-consume" class="mt1rem">
     <h2 >城镇和乡村的消费目的对比</h2>
     <p>这是2010和2018年城镇和乡村的消费目的对比图：</p>
 
