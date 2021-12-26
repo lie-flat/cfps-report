@@ -1,5 +1,5 @@
 <template>
-  <div id="chart-finance-situation">
+  <div id="chart-finance-situation" class="mt1rem">
     <h2>理财情况</h2>
     <p>
       城镇和农村家庭的理财情况见下表：
