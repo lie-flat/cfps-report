@@ -21,6 +21,12 @@ CFPS 数据可视化分析报告网站
 
 - Nginx
 
+## 其他 Repo
+
+- 数据清洗/导入数据库/分析的仓库：https://github.com/lie-flat/cfps-analyze
+- 绘制图表的数据的得出方法：https://github.com/lie-flat/cfps-analyze/tree/master/nbs
+- 部分讲解幻灯片的源代码（幻灯片使用 Slidev 制作，Vue + Markdown）：https://github.com/lie-flat/slides
+
 ## Project setup
 ```
 yarn install
