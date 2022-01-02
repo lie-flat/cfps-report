@@ -2,9 +2,13 @@
 
 CFPS 数据可视化分析报告网站
 
+网址：https://cfps-report.kxxt.tech
+
+讲解视频：https://www.bilibili.com/video/BV11i4y1X7bJ
+
 山东大学（威海）数学与统计学院 数据科学与人工智能实验班
 
-2021 年秋大作业第一部分
+2021 年秋 前端开发和数据库课程 大作业第一部分
 
 已于 2021 年 12 月 26 日竣工
 
